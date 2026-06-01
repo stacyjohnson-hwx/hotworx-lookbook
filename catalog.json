@@ -25,16 +25,19 @@
         {
           "id": 53409541357841,
           "title": "Black / 25 Piece Pkg",
+          "sku": "HOT1535",
           "price": "125.00"
         },
         {
           "id": 53409541390609,
           "title": "Black / 50 Piece Pkg",
+          "sku": "HOT1535",
           "price": "225.00"
         },
         {
           "id": 53409541423377,
           "title": "Black / 100 Piece Pkg",
+          "sku": "HOT1535",
           "price": "370.00"
         }
       ]
@@ -66,26 +69,31 @@
         {
           "id": 53349346738449,
           "title": "SmokeyViolet / S",
+          "sku": "26Aprhwx05",
           "price": "40.40"
         },
         {
           "id": 53349346771217,
           "title": "SmokeyViolet / M",
+          "sku": "26Aprhwx05",
           "price": "40.40"
         },
         {
           "id": 53349346803985,
           "title": "SmokeyViolet / L",
+          "sku": "26Aprhwx05",
           "price": "40.40"
         },
         {
           "id": 53349346836753,
           "title": "SmokeyViolet / XL",
+          "sku": "26Aprhwx05",
           "price": "40.40"
         },
         {
           "id": 53349346869521,
           "title": "SmokeyViolet / 2X",
+          "sku": "26Aprhwx05",
           "price": "42.40"
         }
       ]
@@ -117,21 +125,25 @@
         {
           "id": 53349342740753,
           "title": "Peachy / S",
+          "sku": "26Aprhwx04",
           "price": "29.60"
         },
         {
           "id": 53349342773521,
           "title": "Peachy / M",
+          "sku": "26Aprhwx04",
           "price": "29.60"
         },
         {
           "id": 53349342806289,
           "title": "Peachy / L",
+          "sku": "26Aprhwx04",
           "price": "29.60"
         },
         {
           "id": 53349342839057,
           "title": "Peachy / XL",
+          "sku": "26Aprhwx04",
           "price": "29.60"
         }
       ]
@@ -164,31 +176,37 @@
         {
           "id": 53349326717201,
           "title": "VintRed / XS",
+          "sku": "26Aprhwx03",
           "price": "29.60"
         },
         {
           "id": 53349326749969,
           "title": "VintRed / S",
+          "sku": "26Aprhwx03",
           "price": "29.60"
         },
         {
           "id": 53349326782737,
           "title": "VintRed / M",
+          "sku": "26Aprhwx03",
           "price": "29.60"
         },
         {
           "id": 53349326815505,
           "title": "VintRed / L",
+          "sku": "26Aprhwx03",
           "price": "29.60"
         },
         {
           "id": 53349326848273,
           "title": "VintRed / XL",
+          "sku": "26Aprhwx03",
           "price": "29.60"
         },
         {
           "id": 53349326881041,
           "title": "VintRed / 2X",
+          "sku": "26Aprhwx03",
           "price": "32.00"
         }
       ]
@@ -221,31 +239,37 @@
         {
           "id": 53349287166225,
           "title": "Red / XS",
+          "sku": "26Aprhwx02",
           "price": "30.90"
         },
         {
           "id": 53349287198993,
           "title": "Red / S",
+          "sku": "26Aprhwx02",
           "price": "30.90"
         },
         {
           "id": 53349287231761,
           "title": "Red / M",
+          "sku": "26Aprhwx02",
           "price": "30.90"
         },
         {
           "id": 53349287264529,
           "title": "Red / L",
+          "sku": "26Aprhwx02",
           "price": "30.90"
         },
         {
           "id": 53349287297297,
           "title": "Red / XL",
+          "sku": "26Aprhwx02",
           "price": "30.90"
         },
         {
           "id": 53349287330065,
           "title": "Red / 2X",
+          "sku": "26Aprhwx02",
           "price": "32.90"
         }
       ]
@@ -279,36 +303,43 @@
         {
           "id": 53349196300561,
           "title": "Lt Olive / XS",
+          "sku": "26Aprhwx01",
           "price": "26.00"
         },
         {
           "id": 53349196333329,
           "title": "Lt Olive / S",
+          "sku": "26Aprhwx01",
           "price": "26.00"
         },
         {
           "id": 53349196366097,
           "title": "Lt Olive / M",
+          "sku": "26Aprhwx01",
           "price": "26.00"
         },
         {
           "id": 53349196398865,
           "title": "Lt Olive / L",
+          "sku": "26Aprhwx01",
           "price": "26.00"
         },
         {
           "id": 53349196431633,
           "title": "Lt Olive / XL",
+          "sku": "26Aprhwx01",
           "price": "26.00"
         },
         {
           "id": 53349196464401,
           "title": "Lt Olive / 2X",
+          "sku": "26Aprhwx01",
           "price": "29.00"
         },
         {
           "id": 53349196497169,
           "title": "Lt Olive / 3X",
+          "sku": "26Aprhwx01",
           "price": "31.50"
         }
       ]
@@ -330,6 +361,7 @@
         {
           "id": 53158502924561,
           "title": "GreenSage",
+          "sku": "26Marhwx13",
           "price": "193.80"
         }
       ]
@@ -362,31 +394,37 @@
         {
           "id": 53158498173201,
           "title": "Black / XS",
+          "sku": "26Marhwx11",
           "price": "39.00"
         },
         {
           "id": 53158496665873,
           "title": "Black / S",
+          "sku": "26Marhwx11",
           "price": "39.00"
         },
         {
           "id": 53158496698641,
           "title": "Black / M",
+          "sku": "26Marhwx11",
           "price": "39.00"
         },
         {
           "id": 53158496731409,
           "title": "Black / L",
+          "sku": "26Marhwx11",
           "price": "39.00"
         },
         {
           "id": 53158496764177,
           "title": "Black / XL",
+          "sku": "26Marhwx11",
           "price": "39.00"
         },
         {
           "id": 53158496796945,
           "title": "Black / 2X",
+          "sku": "26Marhwx11",
           "price": "41.00"
         }
       ]
@@ -418,26 +456,31 @@
         {
           "id": 53158478709009,
           "title": "Navy / S",
+          "sku": "26Marhwx10",
           "price": "60.50"
         },
         {
           "id": 53158478741777,
           "title": "Navy / M",
+          "sku": "26Marhwx10",
           "price": "60.50"
         },
         {
           "id": 53158478774545,
           "title": "Navy / L",
+          "sku": "26Marhwx10",
           "price": "60.50"
         },
         {
           "id": 53158478807313,
           "title": "Navy / XL",
+          "sku": "26Marhwx10",
           "price": "60.50"
         },
         {
           "id": 53158478840081,
           "title": "Navy / 2X",
+          "sku": "26Marhwx10",
           "price": "62.50"
         }
       ]
@@ -470,26 +513,31 @@
         {
           "id": 53158468944145,
           "title": "Charcoal / XS",
+          "sku": "26Marhwx09",
           "price": "68.50"
         },
         {
           "id": 53158465405201,
           "title": "Charcoal / S",
+          "sku": "26Marhwx09",
           "price": "68.50"
         },
         {
           "id": 53158465437969,
           "title": "Charcoal / M",
+          "sku": "26Marhwx09",
           "price": "68.50"
         },
         {
           "id": 53158465470737,
           "title": "Charcoal / L",
+          "sku": "26Marhwx09",
           "price": "68.50"
         },
         {
           "id": 53158465536273,
           "title": "Charcoal / 2X",
+          "sku": "26Marhwx09",
           "price": "70.50"
         }
       ]
@@ -522,31 +570,37 @@
         {
           "id": 53158453149969,
           "title": "Charcoal / XS",
+          "sku": "26Marhwx12",
           "price": "70.40"
         },
         {
           "id": 53158448333073,
           "title": "Charcoal / S",
+          "sku": "26Marhwx12",
           "price": "70.40"
         },
         {
           "id": 53158448365841,
           "title": "Charcoal / M",
+          "sku": "26Marhwx12",
           "price": "70.40"
         },
         {
           "id": 53158448398609,
           "title": "Charcoal / L",
+          "sku": "26Marhwx12",
           "price": "70.40"
         },
         {
           "id": 53158448431377,
           "title": "Charcoal / XL",
+          "sku": "26Marhwx12",
           "price": "70.40"
         },
         {
           "id": 53158448464145,
           "title": "Charcoal / 2X",
+          "sku": "26Marhwx12",
           "price": "72.40"
         }
       ]
@@ -578,26 +632,31 @@
         {
           "id": 53158447808785,
           "title": "Black / S",
+          "sku": "26Marhwx08",
           "price": "29.60"
         },
         {
           "id": 53158447841553,
           "title": "Black / M",
+          "sku": "26Marhwx08",
           "price": "29.60"
         },
         {
           "id": 53158447874321,
           "title": "Black / L",
+          "sku": "26Marhwx08",
           "price": "29.60"
         },
         {
           "id": 53158447907089,
           "title": "Black / XL",
+          "sku": "26Marhwx08",
           "price": "29.60"
         },
         {
           "id": 53158447939857,
           "title": "Black / 2X",
+          "sku": "26Marhwx08",
           "price": "32.10"
         }
       ]
@@ -629,26 +688,31 @@
         {
           "id": 53158445154577,
           "title": "HthrGrey / XS",
+          "sku": "26Marhwx07",
           "price": "21.00"
         },
         {
           "id": 53158445187345,
           "title": "HthrGrey / S",
+          "sku": "26Marhwx07",
           "price": "21.00"
         },
         {
           "id": 53158445220113,
           "title": "HthrGrey / M",
+          "sku": "26Marhwx07",
           "price": "21.00"
         },
         {
           "id": 53158445252881,
           "title": "HthrGrey / L",
+          "sku": "26Marhwx07",
           "price": "21.00"
         },
         {
           "id": 53158445285649,
           "title": "HthrGrey / XL",
+          "sku": "26Marhwx07",
           "price": "21.00"
         }
       ]
@@ -680,26 +744,31 @@
         {
           "id": 53158443581713,
           "title": "HthrMauve / XS",
+          "sku": "26Marhwx06",
           "price": "21.00"
         },
         {
           "id": 53158443450641,
           "title": "HthrMauve / S",
+          "sku": "26Marhwx06",
           "price": "21.00"
         },
         {
           "id": 53158443483409,
           "title": "HthrMauve / M",
+          "sku": "26Marhwx06",
           "price": "21.00"
         },
         {
           "id": 53158443516177,
           "title": "HthrMauve / L",
+          "sku": "26Marhwx06",
           "price": "21.00"
         },
         {
           "id": 53158443548945,
           "title": "HthrMauve / XL",
+          "sku": "26Marhwx06",
           "price": "21.00"
         }
       ]
@@ -731,26 +800,31 @@
         {
           "id": 53158434963729,
           "title": "White / S",
+          "sku": "26Marhwx05",
           "price": "30.90"
         },
         {
           "id": 53158434996497,
           "title": "White / M",
+          "sku": "26Marhwx05",
           "price": "30.90"
         },
         {
           "id": 53158435029265,
           "title": "White / L",
+          "sku": "26Marhwx05",
           "price": "30.90"
         },
         {
           "id": 53158435062033,
           "title": "White / XL",
+          "sku": "26Marhwx05",
           "price": "30.90"
         },
         {
           "id": 53158435094801,
           "title": "White / 2X",
+          "sku": "26Marhwx05",
           "price": "33.90"
         }
       ]
@@ -783,31 +857,37 @@
         {
           "id": 53158419824913,
           "title": "HthrColBlue / XS",
+          "sku": "26Marhwx04",
           "price": "22.90"
         },
         {
           "id": 53158419857681,
           "title": "HthrColBlue / S",
+          "sku": "26Marhwx04",
           "price": "22.90"
         },
         {
           "id": 53158419890449,
           "title": "HthrColBlue / M",
+          "sku": "26Marhwx04",
           "price": "22.90"
         },
         {
           "id": 53158419923217,
           "title": "HthrColBlue / L",
+          "sku": "26Marhwx04",
           "price": "22.90"
         },
         {
           "id": 53158419955985,
           "title": "HthrColBlue / XL",
+          "sku": "26Marhwx04",
           "price": "22.90"
         },
         {
           "id": 53158419988753,
           "title": "HthrColBlue / 2X",
+          "sku": "26Marhwx04",
           "price": "25.90"
         }
       ]
@@ -839,26 +919,31 @@
         {
           "id": 53158402097425,
           "title": "Arctic Blue / S",
+          "sku": "26Marhwx03",
           "price": "39.00"
         },
         {
           "id": 53158402130193,
           "title": "Arctic Blue / M",
+          "sku": "26Marhwx03",
           "price": "39.00"
         },
         {
           "id": 53158402162961,
           "title": "Arctic Blue / L",
+          "sku": "26Marhwx03",
           "price": "39.00"
         },
         {
           "id": 53158402195729,
           "title": "Arctic Blue / XL",
+          "sku": "26Marhwx03",
           "price": "39.00"
         },
         {
           "id": 53158402228497,
           "title": "Arctic Blue / 2X",
+          "sku": "26Marhwx03",
           "price": "41.00"
         }
       ]
@@ -890,26 +975,31 @@
         {
           "id": 53158217842961,
           "title": "Charcoal / S",
+          "sku": "26Marhwx02",
           "price": "36.30"
         },
         {
           "id": 53158217875729,
           "title": "Charcoal / M",
+          "sku": "26Marhwx02",
           "price": "36.30"
         },
         {
           "id": 53158217908497,
           "title": "Charcoal / L",
+          "sku": "26Marhwx02",
           "price": "36.30"
         },
         {
           "id": 53158217941265,
           "title": "Charcoal / XL",
+          "sku": "26Marhwx02",
           "price": "36.30"
         },
         {
           "id": 53158217974033,
           "title": "Charcoal / 2X",
+          "sku": "26Marhwx02",
           "price": "38.30"
         }
       ]
@@ -941,26 +1031,31 @@
         {
           "id": 52997989499153,
           "title": "Hthr Black / S",
+          "sku": "26Janhwx08",
           "price": "70.40"
         },
         {
           "id": 52997989531921,
           "title": "Hthr Black / M",
+          "sku": "26Janhwx08",
           "price": "70.40"
         },
         {
           "id": 52997989564689,
           "title": "Hthr Black / L",
+          "sku": "26Janhwx08",
           "price": "70.40"
         },
         {
           "id": 52997989597457,
           "title": "Hthr Black / XL",
+          "sku": "26Janhwx08",
           "price": "70.40"
         },
         {
           "id": 52997989630225,
           "title": "Hthr Black / 2X",
+          "sku": "26Janhwx08",
           "price": "73.90"
         }
       ]
@@ -993,31 +1088,37 @@
         {
           "id": 52997987991825,
           "title": "Hthr Black / S",
+          "sku": "26Janhwx07",
           "price": "70.40"
         },
         {
           "id": 52997988024593,
           "title": "Hthr Black / M",
+          "sku": "26Janhwx07",
           "price": "70.40"
         },
         {
           "id": 52997988057361,
           "title": "Hthr Black / L",
+          "sku": "26Janhwx07",
           "price": "70.40"
         },
         {
           "id": 52997988090129,
           "title": "Hthr Black / XL",
+          "sku": "26Janhwx07",
           "price": "70.40"
         },
         {
           "id": 52997988122897,
           "title": "Hthr Black / 2X",
+          "sku": "26Janhwx07",
           "price": "73.90"
         },
         {
           "id": 52997988155665,
           "title": "Hthr Black / 3X",
+          "sku": "26Janhwx07",
           "price": "73.90"
         }
       ]
@@ -1050,16 +1151,19 @@
         {
           "id": 52997862064401,
           "title": "Navy / S",
+          "sku": "26Janhwx03",
           "price": "71.40"
         },
         {
           "id": 52997862097169,
           "title": "Navy / M",
+          "sku": "26Janhwx03",
           "price": "71.40"
         },
         {
           "id": 52997862195473,
           "title": "Navy / 2X",
+          "sku": "26Janhwx03",
           "price": "73.40"
         }
       ]
@@ -1093,36 +1197,43 @@
         {
           "id": 51348051034385,
           "title": "Bone / XS",
+          "sku": "26Janhwx04",
           "price": "70.40"
         },
         {
           "id": 51348051067153,
           "title": "Bone / S",
+          "sku": "26Janhwx04",
           "price": "70.40"
         },
         {
           "id": 51348051099921,
           "title": "Bone / M",
+          "sku": "26Janhwx04",
           "price": "70.40"
         },
         {
           "id": 51348051132689,
           "title": "Bone / L",
+          "sku": "26Janhwx04",
           "price": "70.40"
         },
         {
           "id": 51348051165457,
           "title": "Bone / XL",
+          "sku": "26Janhwx04",
           "price": "70.40"
         },
         {
           "id": 51348051198225,
           "title": "Bone / 2X",
+          "sku": "26Janhwx04",
           "price": "70.40"
         },
         {
           "id": 52997946310929,
           "title": "Bone / 3X",
+          "sku": "26Janhwx04",
           "price": "70.40"
         }
       ]
@@ -1152,16 +1263,19 @@
         {
           "id": 50690389836049,
           "title": "Coral / S",
+          "sku": "26Janhwx01",
           "price": "69.90"
         },
         {
           "id": 50690389868817,
           "title": "Coral / M",
+          "sku": "26Janhwx01",
           "price": "69.90"
         },
         {
           "id": 50690389901585,
           "title": "Coral / L",
+          "sku": "26Janhwx01",
           "price": "69.90"
         }
       ]
@@ -1194,31 +1308,37 @@
         {
           "id": 47335786905873,
           "title": "Hthr Black / S",
+          "sku": "26Janhwx06",
           "price": "75.90"
         },
         {
           "id": 47335786938641,
           "title": "Hthr Black / M",
+          "sku": "26Janhwx06",
           "price": "75.90"
         },
         {
           "id": 47335786971409,
           "title": "Hthr Black / L",
+          "sku": "26Janhwx06",
           "price": "75.90"
         },
         {
           "id": 47335787004177,
           "title": "Hthr Black / XL",
+          "sku": "26Janhwx06",
           "price": "75.90"
         },
         {
           "id": 47335787036945,
           "title": "Hthr Black / 2X",
+          "sku": "26Janhwx06",
           "price": "79.90"
         },
         {
           "id": 47335787069713,
           "title": "Hthr Black / 3X",
+          "sku": "26Janhwx06",
           "price": "79.90"
         }
       ]
@@ -1250,26 +1370,31 @@
         {
           "id": 47279437283601,
           "title": "Bone / S",
+          "sku": "26Janhwx05",
           "price": "70.40"
         },
         {
           "id": 47279437316369,
           "title": "Bone / M",
+          "sku": "26Janhwx05",
           "price": "70.40"
         },
         {
           "id": 47279437349137,
           "title": "Bone / L",
+          "sku": "26Janhwx05",
           "price": "70.40"
         },
         {
           "id": 47279437381905,
           "title": "Bone / XL",
+          "sku": "26Janhwx05",
           "price": "70.40"
         },
         {
           "id": 47279437414673,
           "title": "Bone / 2X",
+          "sku": "26Janhwx05",
           "price": "73.90"
         }
       ]
@@ -1302,31 +1427,37 @@
         {
           "id": 52997978030353,
           "title": "Grey Hthr / S",
+          "sku": "HOT318",
           "price": "69.90"
         },
         {
           "id": 52997978063121,
           "title": "Grey Hthr / M",
+          "sku": "HOT318",
           "price": "69.90"
         },
         {
           "id": 52997978095889,
           "title": "Grey Hthr / L",
+          "sku": "HOT318",
           "price": "69.90"
         },
         {
           "id": 52997978128657,
           "title": "Grey Hthr / XL",
+          "sku": "HOT318",
           "price": "69.90"
         },
         {
           "id": 52997978161425,
           "title": "Grey Hthr / 2X",
+          "sku": "HOT318",
           "price": "71.90"
         },
         {
           "id": 52997978194193,
           "title": "Grey Hthr / 3X",
+          "sku": "HOT318",
           "price": "75.90"
         }
       ]
@@ -1348,6 +1479,7 @@
         {
           "id": 51805060595985,
           "title": "Orange",
+          "sku": "HOT1502",
           "price": "45.70"
         }
       ]
@@ -1379,26 +1511,31 @@
         {
           "id": 52450266972433,
           "title": "Clear / 10 Piece Pkg",
+          "sku": "HOT561",
           "price": "92.00"
         },
         {
           "id": 52450270806289,
           "title": "Clear / 25 Piece Pkg",
+          "sku": "HOT561",
           "price": "211.50"
         },
         {
           "id": 52450267005201,
           "title": "Clear / 50 Piece Pkg",
+          "sku": "HOT561",
           "price": "391.00"
         },
         {
           "id": 52450267037969,
           "title": "Clear / 100 Piece Pkg",
+          "sku": "HOT561",
           "price": "726.00"
         },
         {
           "id": 52450267070737,
           "title": "Clear / 250 Piece Pkg",
+          "sku": "HOT561",
           "price": "1730.00"
         }
       ]
@@ -1420,6 +1557,7 @@
         {
           "id": 52326214074641,
           "title": "Orange",
+          "sku": "HOT1562",
           "price": "600.00"
         }
       ]
@@ -1441,6 +1579,7 @@
         {
           "id": 52326176882961,
           "title": "Orange",
+          "sku": "HOT1557",
           "price": "950.00"
         }
       ]
@@ -1462,6 +1601,7 @@
         {
           "id": 47874755133713,
           "title": "Orange",
+          "sku": "HOT1560",
           "price": "864.00"
         }
       ]
@@ -1493,26 +1633,31 @@
         {
           "id": 51886073708817,
           "title": "Ath Hthr / S",
+          "sku": "HOT1416",
           "price": "31.60"
         },
         {
           "id": 51886073741585,
           "title": "Ath Hthr / M",
+          "sku": "HOT1416",
           "price": "31.60"
         },
         {
           "id": 51886073774353,
           "title": "Ath Hthr / L",
+          "sku": "HOT1416",
           "price": "31.60"
         },
         {
           "id": 51886073807121,
           "title": "Ath Hthr / XL",
+          "sku": "HOT1416",
           "price": "31.60"
         },
         {
           "id": 51886073839889,
           "title": "Ath Hthr / 2X",
+          "sku": "HOT1416",
           "price": "34.10"
         }
       ]
@@ -1545,31 +1690,37 @@
         {
           "id": 51886067384593,
           "title": "Black / XS",
+          "sku": "HOT737",
           "price": "56.50"
         },
         {
           "id": 51886067417361,
           "title": "Black / S",
+          "sku": "HOT737",
           "price": "56.50"
         },
         {
           "id": 51886067450129,
           "title": "Black / M",
+          "sku": "HOT737",
           "price": "56.50"
         },
         {
           "id": 51886067482897,
           "title": "Black / L",
+          "sku": "HOT737",
           "price": "56.50"
         },
         {
           "id": 51886067515665,
           "title": "Black / XL",
+          "sku": "HOT737",
           "price": "56.50"
         },
         {
           "id": 51886067548433,
           "title": "Black / 2X",
+          "sku": "HOT737",
           "price": "58.50"
         }
       ]
@@ -1602,31 +1753,37 @@
         {
           "id": 51886061224209,
           "title": "Graphite / XS",
+          "sku": "HOT736",
           "price": "56.50"
         },
         {
           "id": 51886058963217,
           "title": "Graphite / S",
+          "sku": "HOT736",
           "price": "56.50"
         },
         {
           "id": 51886058995985,
           "title": "Graphite / M",
+          "sku": "HOT736",
           "price": "56.50"
         },
         {
           "id": 51886059028753,
           "title": "Graphite / L",
+          "sku": "HOT736",
           "price": "56.50"
         },
         {
           "id": 51886059061521,
           "title": "Graphite / XL",
+          "sku": "HOT736",
           "price": "56.50"
         },
         {
           "id": 51886061256977,
           "title": "Graphite / 2X",
+          "sku": "HOT736",
           "price": "58.50"
         }
       ]
@@ -1657,6 +1814,7 @@
         {
           "id": 51886045528337,
           "title": "WhtReptile / XL",
+          "sku": "HOT1411",
           "price": "39.80"
         }
       ]
@@ -1689,11 +1847,13 @@
         {
           "id": 52070227345681,
           "title": "VintBrown / S",
+          "sku": "25FW25",
           "price": "60.00"
         },
         {
           "id": 52070227509521,
           "title": "VintBrown / 3X",
+          "sku": "25FW25",
           "price": "68.00"
         }
       ]
@@ -1725,26 +1885,31 @@
         {
           "id": 51957649473809,
           "title": "BlkWht / S",
+          "sku": "25FW24",
           "price": "80.00"
         },
         {
           "id": 51957649506577,
           "title": "BlkWht / M",
+          "sku": "25FW24",
           "price": "80.00"
         },
         {
           "id": 51957649539345,
           "title": "BlkWht / L",
+          "sku": "25FW24",
           "price": "80.00"
         },
         {
           "id": 51957649572113,
           "title": "BlkWht / XL",
+          "sku": "25FW24",
           "price": "80.00"
         },
         {
           "id": 51957649604881,
           "title": "BlkWht / 2X",
+          "sku": "25FW24",
           "price": "82.00"
         }
       ]
@@ -1776,26 +1941,31 @@
         {
           "id": 51957648818449,
           "title": "Black / S",
+          "sku": "25FW23",
           "price": "102.00"
         },
         {
           "id": 51957648851217,
           "title": "Black / M",
+          "sku": "25FW23",
           "price": "102.00"
         },
         {
           "id": 51957648883985,
           "title": "Black / L",
+          "sku": "25FW23",
           "price": "102.00"
         },
         {
           "id": 51957648916753,
           "title": "Black / XL",
+          "sku": "25FW23",
           "price": "102.00"
         },
         {
           "id": 51957648949521,
           "title": "Black / 2X",
+          "sku": "25FW23",
           "price": "104.00"
         }
       ]
@@ -1828,31 +1998,37 @@
         {
           "id": 51957648064785,
           "title": "Black / S",
+          "sku": "25FW22",
           "price": "102.00"
         },
         {
           "id": 51957648097553,
           "title": "Black / M",
+          "sku": "25FW22",
           "price": "102.00"
         },
         {
           "id": 51957648130321,
           "title": "Black / L",
+          "sku": "25FW22",
           "price": "102.00"
         },
         {
           "id": 51957648163089,
           "title": "Black / XL",
+          "sku": "25FW22",
           "price": "102.00"
         },
         {
           "id": 51957648195857,
           "title": "Black / 2X",
+          "sku": "25FW22",
           "price": "104.00"
         },
         {
           "id": 51957648490769,
           "title": "Black / 3X",
+          "sku": "25FW22",
           "price": "108.00"
         }
       ]
@@ -1884,26 +2060,31 @@
         {
           "id": 51957646885137,
           "title": "Black / S",
+          "sku": "25FW21",
           "price": "84.00"
         },
         {
           "id": 51957646917905,
           "title": "Black / M",
+          "sku": "25FW21",
           "price": "84.00"
         },
         {
           "id": 51957646950673,
           "title": "Black / L",
+          "sku": "25FW21",
           "price": "84.00"
         },
         {
           "id": 51957646983441,
           "title": "Black / XL",
+          "sku": "25FW21",
           "price": "84.00"
         },
         {
           "id": 51957647016209,
           "title": "Black / 2X",
+          "sku": "25FW21",
           "price": "86.00"
         }
       ]
@@ -1936,16 +2117,19 @@
         {
           "id": 51957645803793,
           "title": "SftyOrg / XL",
+          "sku": "25FW20",
           "price": "20.00"
         },
         {
           "id": 51957645836561,
           "title": "SftyOrg / 2X",
+          "sku": "25FW20",
           "price": "22.00"
         },
         {
           "id": 51957645869329,
           "title": "SftyOrg / 3X",
+          "sku": "25FW20",
           "price": "24.00"
         }
       ]
@@ -1977,26 +2161,31 @@
         {
           "id": 51957644853521,
           "title": "BlushFr / S",
+          "sku": "25FW18",
           "price": "40.40"
         },
         {
           "id": 51957644886289,
           "title": "BlushFr / M",
+          "sku": "25FW18",
           "price": "40.40"
         },
         {
           "id": 51957644919057,
           "title": "BlushFr / L",
+          "sku": "25FW18",
           "price": "40.40"
         },
         {
           "id": 51957644951825,
           "title": "BlushFr / XL",
+          "sku": "25FW18",
           "price": "40.40"
         },
         {
           "id": 51957644984593,
           "title": "BlushFr / 2X",
+          "sku": "25FW18",
           "price": "42.40"
         }
       ]
@@ -2028,26 +2217,31 @@
         {
           "id": 51957644296465,
           "title": "HthrLilac / S",
+          "sku": "25FW17",
           "price": "24.20"
         },
         {
           "id": 51957644329233,
           "title": "HthrLilac / M",
+          "sku": "25FW17",
           "price": "24.20"
         },
         {
           "id": 51957644362001,
           "title": "HthrLilac / L",
+          "sku": "25FW17",
           "price": "24.20"
         },
         {
           "id": 51957644394769,
           "title": "HthrLilac / XL",
+          "sku": "25FW17",
           "price": "24.20"
         },
         {
           "id": 51957644427537,
           "title": "HthrLilac / 2X",
+          "sku": "25FW17",
           "price": "27.20"
         }
       ]
@@ -2079,26 +2273,31 @@
         {
           "id": 51957643673873,
           "title": "PondBlueHthr / S",
+          "sku": "25FW15",
           "price": "29.00"
         },
         {
           "id": 51957643706641,
           "title": "PondBlueHthr / M",
+          "sku": "25FW15",
           "price": "29.00"
         },
         {
           "id": 51957643739409,
           "title": "PondBlueHthr / L",
+          "sku": "25FW15",
           "price": "29.00"
         },
         {
           "id": 51957643772177,
           "title": "PondBlueHthr / XL",
+          "sku": "25FW15",
           "price": "29.00"
         },
         {
           "id": 51957643804945,
           "title": "PondBlueHthr / 2X",
+          "sku": "25FW15",
           "price": "31.00"
         }
       ]
@@ -2130,26 +2329,31 @@
         {
           "id": 51957643411729,
           "title": "HthrDpTeal / S",
+          "sku": "25FW14",
           "price": "29.60"
         },
         {
           "id": 51957643444497,
           "title": "HthrDpTeal / M",
+          "sku": "25FW14",
           "price": "29.60"
         },
         {
           "id": 51957643477265,
           "title": "HthrDpTeal / L",
+          "sku": "25FW14",
           "price": "29.60"
         },
         {
           "id": 51957643510033,
           "title": "HthrDpTeal / XL",
+          "sku": "25FW14",
           "price": "29.60"
         },
         {
           "id": 51957643542801,
           "title": "HthrDpTeal / 2X",
+          "sku": "25FW14",
           "price": "32.10"
         }
       ]
@@ -2181,26 +2385,31 @@
         {
           "id": 51957642723601,
           "title": "AntGold / S",
+          "sku": "25FW13",
           "price": "29.60"
         },
         {
           "id": 51957642756369,
           "title": "AntGold / M",
+          "sku": "25FW13",
           "price": "29.60"
         },
         {
           "id": 51957642789137,
           "title": "AntGold / L",
+          "sku": "25FW13",
           "price": "29.60"
         },
         {
           "id": 51957642821905,
           "title": "AntGold / XL",
+          "sku": "25FW13",
           "price": "29.60"
         },
         {
           "id": 51957642854673,
           "title": "AntGold / 2X",
+          "sku": "25FW13",
           "price": "31.60"
         }
       ]
@@ -2231,21 +2440,25 @@
         {
           "id": 51957642035473,
           "title": "VintGold / S",
+          "sku": "25FW12",
           "price": "31.60"
         },
         {
           "id": 51957642068241,
           "title": "VintGold / M",
+          "sku": "25FW12",
           "price": "31.60"
         },
         {
           "id": 51957642101009,
           "title": "VintGold / L",
+          "sku": "25FW12",
           "price": "31.60"
         },
         {
           "id": 51957642133777,
           "title": "VintGold / XL",
+          "sku": "25FW12",
           "price": "31.60"
         }
       ]
@@ -2277,11 +2490,13 @@
         {
           "id": 51957634171153,
           "title": "MilGreen / XL",
+          "sku": "25FW11",
           "price": "25.00"
         },
         {
           "id": 51957634203921,
           "title": "MilGreen / 2X",
+          "sku": "25FW11",
           "price": "27.00"
         }
       ]
@@ -2314,31 +2529,37 @@
         {
           "id": 51957633155345,
           "title": "Black / S",
+          "sku": "25FW10",
           "price": "27.60"
         },
         {
           "id": 51957633188113,
           "title": "Black / M",
+          "sku": "25FW10",
           "price": "27.60"
         },
         {
           "id": 51957633220881,
           "title": "Black / L",
+          "sku": "25FW10",
           "price": "27.60"
         },
         {
           "id": 51957633253649,
           "title": "Black / XL",
+          "sku": "25FW10",
           "price": "27.60"
         },
         {
           "id": 51957633286417,
           "title": "Black / 2X",
+          "sku": "25FW10",
           "price": "29.60"
         },
         {
           "id": 51957633777937,
           "title": "Black / 3X",
+          "sku": "25FW10",
           "price": "33.60"
         }
       ]
@@ -2371,6 +2592,7 @@
         {
           "id": 51957617852689,
           "title": "BlkMlnge / S",
+          "sku": "25FW08",
           "price": "16.00"
         }
       ]
@@ -2402,26 +2624,31 @@
         {
           "id": 51957568700689,
           "title": "WashRouge / S",
+          "sku": "25FW07",
           "price": "37.00"
         },
         {
           "id": 51957568733457,
           "title": "WashRouge / M",
+          "sku": "25FW07",
           "price": "37.00"
         },
         {
           "id": 51957568766225,
           "title": "WashRouge / L",
+          "sku": "25FW07",
           "price": "37.00"
         },
         {
           "id": 51957568798993,
           "title": "WashRouge / XL",
+          "sku": "25FW07",
           "price": "37.00"
         },
         {
           "id": 51957568831761,
           "title": "WashRouge / 2X",
+          "sku": "25FW07",
           "price": "40.00"
         }
       ]
@@ -2453,26 +2680,31 @@
         {
           "id": 51957568143633,
           "title": "Black / S",
+          "sku": "25FW06",
           "price": "38.30"
         },
         {
           "id": 51957568176401,
           "title": "Black / M",
+          "sku": "25FW06",
           "price": "38.30"
         },
         {
           "id": 51957568209169,
           "title": "Black / L",
+          "sku": "25FW06",
           "price": "38.30"
         },
         {
           "id": 51957568241937,
           "title": "Black / XL",
+          "sku": "25FW06",
           "price": "38.30"
         },
         {
           "id": 51957568274705,
           "title": "Black / 2X",
+          "sku": "25FW06",
           "price": "40.80"
         }
       ]
@@ -2504,26 +2736,31 @@
         {
           "id": 51957567619345,
           "title": "VintNavy / S",
+          "sku": "25FW05",
           "price": "37.00"
         },
         {
           "id": 51957567652113,
           "title": "VintNavy / M",
+          "sku": "25FW05",
           "price": "37.00"
         },
         {
           "id": 51957567684881,
           "title": "VintNavy / L",
+          "sku": "25FW05",
           "price": "37.00"
         },
         {
           "id": 51957567717649,
           "title": "VintNavy / XL",
+          "sku": "25FW05",
           "price": "37.00"
         },
         {
           "id": 51957567750417,
           "title": "VintNavy / 2X",
+          "sku": "25FW05",
           "price": "40.00"
         }
       ]
@@ -2556,6 +2793,7 @@
         {
           "id": 51957560672529,
           "title": "Mandarin / S",
+          "sku": "25FW04",
           "price": "44.00"
         }
       ]
@@ -2588,11 +2826,13 @@
         {
           "id": 51957558411537,
           "title": "Navy / L",
+          "sku": "25FW02",
           "price": "44.00"
         },
         {
           "id": 51957558444305,
           "title": "Navy / XL",
+          "sku": "25FW02",
           "price": "44.00"
         }
       ]
@@ -2625,6 +2865,7 @@
         {
           "id": 51957557297425,
           "title": "Navy / 2X",
+          "sku": "25FW01",
           "price": "48.00"
         }
       ]
@@ -2656,26 +2897,31 @@
         {
           "id": 51772588359953,
           "title": "Hthr Grey / XS",
+          "sku": "HOT2306",
           "price": "39.30"
         },
         {
           "id": 51772588392721,
           "title": "Hthr Grey / S",
+          "sku": "HOT2306",
           "price": "39.30"
         },
         {
           "id": 51772588425489,
           "title": "Hthr Grey / M",
+          "sku": "HOT2306",
           "price": "39.30"
         },
         {
           "id": 51772588458257,
           "title": "Hthr Grey / L",
+          "sku": "HOT2306",
           "price": "39.30"
         },
         {
           "id": 51772588491025,
           "title": "Hthr Grey / XL",
+          "sku": "HOT2306",
           "price": "39.30"
         }
       ]
@@ -2708,21 +2954,25 @@
         {
           "id": 51772572107025,
           "title": "WashBlk / S",
+          "sku": "HOT343",
           "price": "34.50"
         },
         {
           "id": 51772572139793,
           "title": "WashBlk / M",
+          "sku": "HOT343",
           "price": "34.50"
         },
         {
           "id": 51772572172561,
           "title": "WashBlk / L",
+          "sku": "HOT343",
           "price": "34.50"
         },
         {
           "id": 51772572205329,
           "title": "WashBlk / XL",
+          "sku": "HOT343",
           "price": "34.50"
         }
       ]
@@ -2754,26 +3004,31 @@
         {
           "id": 51772567978257,
           "title": "Red / S",
+          "sku": "HOT312",
           "price": "23.50"
         },
         {
           "id": 51772568011025,
           "title": "Red / M",
+          "sku": "HOT312",
           "price": "23.50"
         },
         {
           "id": 51772568043793,
           "title": "Red / L",
+          "sku": "HOT312",
           "price": "23.50"
         },
         {
           "id": 51772568076561,
           "title": "Red / XL",
+          "sku": "HOT312",
           "price": "23.50"
         },
         {
           "id": 51772568109329,
           "title": "Red / 2X",
+          "sku": "HOT312",
           "price": "26.00"
         }
       ]
@@ -2805,26 +3060,31 @@
         {
           "id": 51772562309393,
           "title": "DkGryHthr / S",
+          "sku": "HOT307",
           "price": "25.00"
         },
         {
           "id": 51772562342161,
           "title": "DkGryHthr / M",
+          "sku": "HOT307",
           "price": "25.00"
         },
         {
           "id": 51772562374929,
           "title": "DkGryHthr / L",
+          "sku": "HOT307",
           "price": "25.00"
         },
         {
           "id": 51772562407697,
           "title": "DkGryHthr / XL",
+          "sku": "HOT307",
           "price": "25.00"
         },
         {
           "id": 51772562440465,
           "title": "DkGryHthr / 2X",
+          "sku": "HOT307",
           "price": "27.50"
         }
       ]
@@ -2848,11 +3108,13 @@
         {
           "id": 51716657873169,
           "title": "Char Wht",
+          "sku": "HOT442",
           "price": "156.00"
         },
         {
           "id": 51716657905937,
           "title": "White",
+          "sku": "HOT443",
           "price": "156.00"
         }
       ]
@@ -2884,26 +3146,31 @@
         {
           "id": 51569879089425,
           "title": "Iron / S",
+          "sku": "HOT2397",
           "price": "55.30"
         },
         {
           "id": 51569879122193,
           "title": "Iron / M",
+          "sku": "HOT2397",
           "price": "55.30"
         },
         {
           "id": 51569879154961,
           "title": "Iron / L",
+          "sku": "HOT2397",
           "price": "55.30"
         },
         {
           "id": 51569879187729,
           "title": "Iron / XL",
+          "sku": "HOT2397",
           "price": "55.30"
         },
         {
           "id": 51569879220497,
           "title": "Iron / 2X",
+          "sku": "HOT2397",
           "price": "57.30"
         }
       ]
@@ -2925,6 +3192,7 @@
         {
           "id": 51798108078353,
           "title": "White",
+          "sku": "LOC400",
           "price": "360.00"
         }
       ]
@@ -2946,6 +3214,7 @@
         {
           "id": 51697430331665,
           "title": "OrgGreyWht",
+          "sku": "HOT410",
           "price": "102.00"
         }
       ]
@@ -2978,11 +3247,13 @@
         {
           "id": 51569895801105,
           "title": "Natural / XL",
+          "sku": "25SU08",
           "price": "52.00"
         },
         {
           "id": 51569895833873,
           "title": "Natural / 2X",
+          "sku": "25SU08",
           "price": "54.00"
         }
       ]
@@ -3014,11 +3285,13 @@
         {
           "id": 51569873387793,
           "title": "White / XL",
+          "sku": "25SU06",
           "price": "18.00"
         },
         {
           "id": 51569873420561,
           "title": "White / 2X",
+          "sku": "25SU06",
           "price": "20.00"
         }
       ]
@@ -3051,11 +3324,13 @@
         {
           "id": 51569864409361,
           "title": "Black Melange / XL",
+          "sku": "25SU09",
           "price": "24.00"
         },
         {
           "id": 51569864442129,
           "title": "Black Melange / 2X",
+          "sku": "25SU09",
           "price": "26.00"
         }
       ]
@@ -3088,11 +3363,13 @@
         {
           "id": 51569822204177,
           "title": "Natural / XL",
+          "sku": "25SU03",
           "price": "47.00"
         },
         {
           "id": 51569822236945,
           "title": "Natural / 2X",
+          "sku": "25SU03",
           "price": "48.50"
         }
       ]
@@ -3125,31 +3402,37 @@
         {
           "id": 51569806180625,
           "title": "DkGryHthr / XS",
+          "sku": "25SU02",
           "price": "20.00"
         },
         {
           "id": 51569803034897,
           "title": "DkGryHthr / S",
+          "sku": "25SU02",
           "price": "20.00"
         },
         {
           "id": 51569803067665,
           "title": "DkGryHthr / M",
+          "sku": "25SU02",
           "price": "20.00"
         },
         {
           "id": 51569803100433,
           "title": "DkGryHthr / L",
+          "sku": "25SU02",
           "price": "20.00"
         },
         {
           "id": 51569803133201,
           "title": "DkGryHthr / XL",
+          "sku": "25SU02",
           "price": "20.00"
         },
         {
           "id": 51569803165969,
           "title": "DkGryHthr / 2X",
+          "sku": "25SU02",
           "price": "22.00"
         }
       ]
@@ -3181,21 +3464,25 @@
         {
           "id": 51569786192145,
           "title": "Sport Red / S",
+          "sku": "25SU01",
           "price": "22.00"
         },
         {
           "id": 51569786224913,
           "title": "Sport Red / M",
+          "sku": "25SU01",
           "price": "22.00"
         },
         {
           "id": 51569786257681,
           "title": "Sport Red / L",
+          "sku": "25SU01",
           "price": "22.00"
         },
         {
           "id": 51569786290449,
           "title": "Sport Red / XL",
+          "sku": "25SU01",
           "price": "22.00"
         }
       ]
@@ -3226,21 +3513,25 @@
         {
           "id": 51299341533457,
           "title": "White / 20 Piece Pkg",
+          "sku": "HOT556",
           "price": "72.00"
         },
         {
           "id": 51299341566225,
           "title": "White / 40 Piece Pkg",
+          "sku": "HOT556",
           "price": "131.20"
         },
         {
           "id": 51299341598993,
           "title": "White / 100 Piece Pkg",
+          "sku": "HOT556",
           "price": "278.00"
         },
         {
           "id": 51299341631761,
           "title": "White / 250 Piece Pkg",
+          "sku": "HOT556",
           "price": "635.00"
         }
       ]
@@ -3272,26 +3563,31 @@
         {
           "id": 51352178229521,
           "title": "Graphite / S",
+          "sku": "HOT701",
           "price": "46.40"
         },
         {
           "id": 51352178262289,
           "title": "Graphite / M",
+          "sku": "HOT701",
           "price": "46.40"
         },
         {
           "id": 51352178295057,
           "title": "Graphite / L",
+          "sku": "HOT701",
           "price": "46.40"
         },
         {
           "id": 51352178327825,
           "title": "Graphite / XL",
+          "sku": "HOT701",
           "price": "46.40"
         },
         {
           "id": 51352178360593,
           "title": "Graphite / 2X",
+          "sku": "HOT701",
           "price": "48.40"
         }
       ]
@@ -3324,31 +3620,37 @@
         {
           "id": 51348160545041,
           "title": "DkGryHthr / XS",
+          "sku": "HOT713",
           "price": "56.00"
         },
         {
           "id": 51348160577809,
           "title": "DkGryHthr / S",
+          "sku": "HOT713",
           "price": "56.00"
         },
         {
           "id": 51348160610577,
           "title": "DkGryHthr / M",
+          "sku": "HOT713",
           "price": "56.00"
         },
         {
           "id": 51348160643345,
           "title": "DkGryHthr / L",
+          "sku": "HOT713",
           "price": "56.00"
         },
         {
           "id": 51348160676113,
           "title": "DkGryHthr / XL",
+          "sku": "HOT713",
           "price": "56.00"
         },
         {
           "id": 51348160708881,
           "title": "DkGryHthr / 2X",
+          "sku": "HOT713",
           "price": "58.00"
         }
       ]
@@ -3381,31 +3683,37 @@
         {
           "id": 51348126073105,
           "title": "Asphalt / XS",
+          "sku": "HOT712",
           "price": "56.00"
         },
         {
           "id": 51348126105873,
           "title": "Asphalt / S",
+          "sku": "HOT712",
           "price": "56.00"
         },
         {
           "id": 51348126138641,
           "title": "Asphalt / M",
+          "sku": "HOT712",
           "price": "56.00"
         },
         {
           "id": 51348126171409,
           "title": "Asphalt / L",
+          "sku": "HOT712",
           "price": "56.00"
         },
         {
           "id": 51348126204177,
           "title": "Asphalt / XL",
+          "sku": "HOT712",
           "price": "56.00"
         },
         {
           "id": 51348126236945,
           "title": "Asphalt / 2X",
+          "sku": "HOT712",
           "price": "58.00"
         }
       ]
@@ -3437,21 +3745,25 @@
         {
           "id": 51348108509457,
           "title": "Tr Navy / S",
+          "sku": "HOT2302",
           "price": "31.90"
         },
         {
           "id": 51348108542225,
           "title": "Tr Navy / M",
+          "sku": "HOT2302",
           "price": "31.90"
         },
         {
           "id": 51348108574993,
           "title": "Tr Navy / L",
+          "sku": "HOT2302",
           "price": "31.90"
         },
         {
           "id": 51348108607761,
           "title": "Tr Navy / XL",
+          "sku": "HOT2302",
           "price": "31.90"
         }
       ]
@@ -3483,26 +3795,31 @@
         {
           "id": 51348104511761,
           "title": "Black / S",
+          "sku": "HOT2301",
           "price": "31.90"
         },
         {
           "id": 51348104544529,
           "title": "Black / M",
+          "sku": "HOT2301",
           "price": "31.90"
         },
         {
           "id": 51348104577297,
           "title": "Black / L",
+          "sku": "HOT2301",
           "price": "31.90"
         },
         {
           "id": 51348104610065,
           "title": "Black / XL",
+          "sku": "HOT2301",
           "price": "31.90"
         },
         {
           "id": 51348104642833,
           "title": "Black / 2X",
+          "sku": "HOT2301",
           "price": "33.90"
         }
       ]
@@ -3535,16 +3852,19 @@
         {
           "id": 51348167983377,
           "title": "Ecru / XS",
+          "sku": "25SP24",
           "price": "52.00"
         },
         {
           "id": 51348168114449,
           "title": "Ecru / XL",
+          "sku": "25SP24",
           "price": "52.00"
         },
         {
           "id": 51348168147217,
           "title": "Ecru / 2X",
+          "sku": "25SP24",
           "price": "54.00"
         }
       ]
@@ -3577,6 +3897,7 @@
         {
           "id": 51348036747537,
           "title": "Bone / 2X",
+          "sku": "25SP16",
           "price": "34.00"
         }
       ]
@@ -3609,6 +3930,7 @@
         {
           "id": 51347892371729,
           "title": "Natural / 2X",
+          "sku": "25SP15",
           "price": "26.00"
         }
       ]
@@ -3640,16 +3962,19 @@
         {
           "id": 51347885883665,
           "title": "Storm / S",
+          "sku": "25SP10",
           "price": "52.00"
         },
         {
           "id": 51347885981969,
           "title": "Storm / XL",
+          "sku": "25SP10",
           "price": "52.00"
         },
         {
           "id": 51347886014737,
           "title": "Storm / 2X",
+          "sku": "25SP10",
           "price": "56.00"
         }
       ]
@@ -3693,181 +4018,217 @@
         {
           "id": 50891019780369,
           "title": "Black / XS / Crew Blend Tee",
+          "sku": "LOC020",
           "price": "15.90"
         },
         {
           "id": 50891019813137,
           "title": "Black / S / Crew Blend Tee",
+          "sku": "LOC020",
           "price": "15.90"
         },
         {
           "id": 50891046125841,
           "title": "Black / S / Racerback Crop Tank",
+          "sku": "LOC025",
           "price": "20.40"
         },
         {
           "id": 50891019845905,
           "title": "Black / M / Crew Blend Tee",
+          "sku": "LOC020",
           "price": "15.90"
         },
         {
           "id": 50891046158609,
           "title": "Black / M / Racerback Crop Tank",
+          "sku": "LOC025",
           "price": "20.40"
         },
         {
           "id": 50891019878673,
           "title": "Black / L / Crew Blend Tee",
+          "sku": "LOC020",
           "price": "15.90"
         },
         {
           "id": 50891046191377,
           "title": "Black / L / Racerback Crop Tank",
+          "sku": "LOC025",
           "price": "20.40"
         },
         {
           "id": 50891019911441,
           "title": "Black / XL / Crew Blend Tee",
+          "sku": "LOC020",
           "price": "15.90"
         },
         {
           "id": 50891046224145,
           "title": "Black / XL / Racerback Crop Tank",
+          "sku": "LOC025",
           "price": "20.40"
         },
         {
           "id": 50891019944209,
           "title": "Black / 2X / Crew Blend Tee",
+          "sku": "LOC020",
           "price": "19.90"
         },
         {
           "id": 50891046256913,
           "title": "Black / 2X / Racerback Crop Tank",
+          "sku": "LOC025",
           "price": "22.40"
         },
         {
           "id": 50891019976977,
           "title": "Black / 3X / Crew Blend Tee",
+          "sku": "LOC020",
           "price": "21.90"
         },
         {
           "id": 50891035509009,
           "title": "White / XS / Crew Blend Tee",
+          "sku": "LOC022",
           "price": "15.90"
         },
         {
           "id": 50891035541777,
           "title": "White / S / Crew Blend Tee",
+          "sku": "LOC022",
           "price": "15.90"
         },
         {
           "id": 50891046355217,
           "title": "White / S / Racerback Crop Tank",
+          "sku": "LOC027",
           "price": "20.40"
         },
         {
           "id": 50891035607313,
           "title": "White / M / Crew Blend Tee",
+          "sku": "LOC022",
           "price": "15.90"
         },
         {
           "id": 50891046387985,
           "title": "White / M / Racerback Crop Tank",
+          "sku": "LOC027",
           "price": "20.40"
         },
         {
           "id": 50891035672849,
           "title": "White / L / Crew Blend Tee",
+          "sku": "LOC022",
           "price": "15.90"
         },
         {
           "id": 50891046420753,
           "title": "White / L / Racerback Crop Tank",
+          "sku": "LOC027",
           "price": "20.40"
         },
         {
           "id": 50891035738385,
           "title": "White / XL / Crew Blend Tee",
+          "sku": "LOC022",
           "price": "15.90"
         },
         {
           "id": 50891046453521,
           "title": "White / XL / Racerback Crop Tank",
+          "sku": "LOC027",
           "price": "20.40"
         },
         {
           "id": 50891035803921,
           "title": "White / 2X / Crew Blend Tee",
+          "sku": "LOC022",
           "price": "19.90"
         },
         {
           "id": 50891046486289,
           "title": "White / 2X / Racerback Crop Tank",
+          "sku": "LOC027",
           "price": "22.40"
         },
         {
           "id": 50891035869457,
           "title": "White / 3X / Crew Blend Tee",
+          "sku": "LOC022",
           "price": "21.90"
         },
         {
           "id": 50891044454673,
           "title": "Red / XS / Crew Blend Tee",
+          "sku": "LOC021",
           "price": "15.90"
         },
         {
           "id": 50891044487441,
           "title": "Red / S / Crew Blend Tee",
+          "sku": "LOC021",
           "price": "15.90"
         },
         {
           "id": 50891044520209,
           "title": "Red / M / Crew Blend Tee",
+          "sku": "LOC021",
           "price": "15.90"
         },
         {
           "id": 50891044552977,
           "title": "Red / L / Crew Blend Tee",
+          "sku": "LOC021",
           "price": "15.90"
         },
         {
           "id": 50891044585745,
           "title": "Red / XL / Crew Blend Tee",
+          "sku": "LOC021",
           "price": "15.90"
         },
         {
           "id": 50891044618513,
           "title": "Red / 2X / Crew Blend Tee",
+          "sku": "LOC021",
           "price": "19.90"
         },
         {
           "id": 50891044651281,
           "title": "Red / 3X / Crew Blend Tee",
+          "sku": "LOC021",
           "price": "21.90"
         },
         {
           "id": 50891046813969,
           "title": "Hthr Red / S / Racerback Crop Tank",
+          "sku": "LOC026",
           "price": "20.40"
         },
         {
           "id": 50891046846737,
           "title": "Hthr Red / M / Racerback Crop Tank",
+          "sku": "LOC026",
           "price": "20.40"
         },
         {
           "id": 50891046879505,
           "title": "Hthr Red / L / Racerback Crop Tank",
+          "sku": "LOC026",
           "price": "20.40"
         },
         {
           "id": 50891046912273,
           "title": "Hthr Red / XL / Racerback Crop Tank",
+          "sku": "LOC026",
           "price": "20.40"
         },
         {
           "id": 50891046945041,
           "title": "Hthr Red / 2X / Racerback Crop Tank",
+          "sku": "LOC026",
           "price": "22.40"
         }
       ]
@@ -3889,6 +4250,7 @@
         {
           "id": 50659667116305,
           "title": "Black",
+          "sku": "HOT497",
           "price": "146.40"
         }
       ]
@@ -3911,11 +4273,13 @@
         {
           "id": 50837927952657,
           "title": "Black",
+          "sku": "HOT405",
           "price": "151.80"
         },
         {
           "id": 47066615841041,
           "title": "White",
+          "sku": "HOT408",
           "price": "151.80"
         }
       ]
@@ -3946,21 +4310,25 @@
         {
           "id": 50242620784913,
           "title": "Orange / 25 Piece Pkg",
+          "sku": "HOT501",
           "price": "82.50"
         },
         {
           "id": 50242620817681,
           "title": "Orange / 50 Piece Pkg",
+          "sku": "HOT501",
           "price": "143.00"
         },
         {
           "id": 50242620850449,
           "title": "Orange / 100 Piece Pkg",
+          "sku": "HOT501",
           "price": "230.00"
         },
         {
           "id": 50242620883217,
           "title": "Orange / 250 Piece Pkg",
+          "sku": "HOT501",
           "price": "495.00"
         }
       ]
@@ -3991,21 +4359,25 @@
         {
           "id": 50238439162129,
           "title": "White / 25 Piece Pkg",
+          "sku": "HOT527",
           "price": "205.00"
         },
         {
           "id": 50238439194897,
           "title": "White / 50 Piece Pkg",
+          "sku": "HOT527",
           "price": "378.00"
         },
         {
           "id": 50238439227665,
           "title": "White / 100 Piece Pkg",
+          "sku": "HOT527",
           "price": "720.00"
         },
         {
           "id": 50238439260433,
           "title": "White / 250 Piece Pkg",
+          "sku": "HOT527",
           "price": "1675.00"
         }
       ]
@@ -4036,21 +4408,25 @@
         {
           "id": 50238423499025,
           "title": "White / 25 Piece Pkg",
+          "sku": "HOT528",
           "price": "104.50"
         },
         {
           "id": 50238423531793,
           "title": "White / 50 Piece Pkg",
+          "sku": "HOT528",
           "price": "168.00"
         },
         {
           "id": 50238423564561,
           "title": "White / 100 Piece Pkg",
+          "sku": "HOT528",
           "price": "310.00"
         },
         {
           "id": 50238423597329,
           "title": "White / 250 Piece Pkg",
+          "sku": "HOT528",
           "price": "714.00"
         }
       ]
@@ -4081,21 +4457,25 @@
         {
           "id": 50238402887953,
           "title": "White / 25 Piece Pkg",
+          "sku": "HOT504",
           "price": "109.00"
         },
         {
           "id": 50238402920721,
           "title": "White / 50 Piece Pkg",
+          "sku": "HOT504",
           "price": "177.00"
         },
         {
           "id": 50238402953489,
           "title": "White / 100 Piece Pkg",
+          "sku": "HOT504",
           "price": "328.00"
         },
         {
           "id": 50238402986257,
           "title": "White / 250 Piece Pkg",
+          "sku": "HOT504",
           "price": "765.00"
         }
       ]
@@ -4126,21 +4506,25 @@
         {
           "id": 50238369890577,
           "title": "White / 25 Piece Pkg",
+          "sku": "HOT503",
           "price": "86.50"
         },
         {
           "id": 50238369923345,
           "title": "White / 50 Piece Pkg",
+          "sku": "HOT503",
           "price": "146.00"
         },
         {
           "id": 50238369956113,
           "title": "White / 100 Piece Pkg",
+          "sku": "HOT503",
           "price": "260.00"
         },
         {
           "id": 50238369988881,
           "title": "White / 250 Piece Pkg",
+          "sku": "HOT503",
           "price": "565.00"
         }
       ]
@@ -4171,21 +4555,25 @@
         {
           "id": 50238354030865,
           "title": "White / 25 Piece Pkg",
+          "sku": "HOT500",
           "price": "129.50"
         },
         {
           "id": 50238354063633,
           "title": "White / 50 Piece Pkg",
+          "sku": "HOT500",
           "price": "225.00"
         },
         {
           "id": 50238354096401,
           "title": "White / 100 Piece Pkg",
+          "sku": "HOT500",
           "price": "398.00"
         },
         {
           "id": 50238354129169,
           "title": "White / 250 Piece Pkg",
+          "sku": "HOT500",
           "price": "880.00"
         }
       ]
@@ -4216,21 +4604,25 @@
         {
           "id": 50238284333329,
           "title": "Orange / 25 Piece Pkg",
+          "sku": "HOT502",
           "price": "162.50"
         },
         {
           "id": 50238284366097,
           "title": "Orange / 50 Piece Pkg",
+          "sku": "HOT502",
           "price": "292.00"
         },
         {
           "id": 50238284398865,
           "title": "Orange / 100 Piece Pkg",
+          "sku": "HOT502",
           "price": "548.00"
         },
         {
           "id": 50238284431633,
           "title": "Orange / 250 Piece Pkg",
+          "sku": "HOT502",
           "price": "1245.00"
         }
       ]
@@ -4262,6 +4654,7 @@
         {
           "id": 50265052086545,
           "title": "Hthr Dust / XL",
+          "sku": "24F22",
           "price": "42.00"
         }
       ]
@@ -4294,6 +4687,7 @@
         {
           "id": 50216784101649,
           "title": "Desert Rose / 2X",
+          "sku": "24F17",
           "price": "32.00"
         }
       ]
@@ -4325,6 +4719,7 @@
         {
           "id": 50215480754449,
           "title": "Hthr Dust / 2X",
+          "sku": "24F20",
           "price": "28.50"
         }
       ]
@@ -4358,36 +4753,43 @@
         {
           "id": 47383905796369,
           "title": "Black / XS",
+          "sku": "HOT360",
           "price": "15.80"
         },
         {
           "id": 47383905829137,
           "title": "Black / S",
+          "sku": "HOT360",
           "price": "15.80"
         },
         {
           "id": 47383905861905,
           "title": "Black / M",
+          "sku": "HOT360",
           "price": "15.80"
         },
         {
           "id": 47383905960209,
           "title": "Black / L",
+          "sku": "HOT360",
           "price": "15.80"
         },
         {
           "id": 47383905992977,
           "title": "Black / XL",
+          "sku": "HOT360",
           "price": "15.80"
         },
         {
           "id": 47383906025745,
           "title": "Black / 2X",
+          "sku": "HOT360",
           "price": "19.80"
         },
         {
           "id": 47383906058513,
           "title": "Black / 3X",
+          "sku": "HOT360",
           "price": "21.80"
         }
       ]
@@ -4418,21 +4820,25 @@
         {
           "id": 49843457294609,
           "title": "Wht Blk / 25 Piece Pkg",
+          "sku": "HOT1581",
           "price": "89.00"
         },
         {
           "id": 49843457327377,
           "title": "Wht Blk / 50 Piece Pkg",
+          "sku": "HOT1581",
           "price": "156.00"
         },
         {
           "id": 49843457229073,
           "title": "Wht Blk / 100 Piece Pkg",
+          "sku": "HOT1581",
           "price": "260.00"
         },
         {
           "id": 49843457261841,
           "title": "Wht Blk / 250 Piece Pkg",
+          "sku": "HOT1581",
           "price": "585.00"
         }
       ]
@@ -4465,11 +4871,13 @@
         {
           "id": 49346880241937,
           "title": "White / S",
+          "sku": "HOT1616",
           "price": "17.00"
         },
         {
           "id": 49346880405777,
           "title": "White / 3X",
+          "sku": "HOT1616",
           "price": "23.00"
         }
       ]
@@ -4500,11 +4908,13 @@
         {
           "id": 49346852913425,
           "title": "White / 22 24",
+          "sku": "HOT1613",
           "price": "17.50"
         },
         {
           "id": 49346852946193,
           "title": "White / 26 28",
+          "sku": "HOT1613",
           "price": "17.50"
         }
       ]
@@ -4536,21 +4946,25 @@
         {
           "id": 49346848456977,
           "title": "Butter / XS",
+          "sku": "HOT1612",
           "price": "14.00"
         },
         {
           "id": 49346848489745,
           "title": "Butter / S",
+          "sku": "HOT1612",
           "price": "14.00"
         },
         {
           "id": 49346848522513,
           "title": "Butter / M",
+          "sku": "HOT1612",
           "price": "14.00"
         },
         {
           "id": 49346848588049,
           "title": "Butter / XL",
+          "sku": "HOT1612",
           "price": "14.00"
         }
       ]
@@ -4583,11 +4997,13 @@
         {
           "id": 49346840592657,
           "title": "White / S",
+          "sku": "HOT1611",
           "price": "17.00"
         },
         {
           "id": 49346840690961,
           "title": "White / XL",
+          "sku": "HOT1611",
           "price": "17.00"
         }
       ]
@@ -4619,21 +5035,25 @@
         {
           "id": 49346835251473,
           "title": "White / XS",
+          "sku": "HOT1610",
           "price": "14.00"
         },
         {
           "id": 49346835284241,
           "title": "White / S",
+          "sku": "HOT1610",
           "price": "14.00"
         },
         {
           "id": 49346835317009,
           "title": "White / M",
+          "sku": "HOT1610",
           "price": "14.00"
         },
         {
           "id": 49346835382545,
           "title": "White / XL",
+          "sku": "HOT1610",
           "price": "14.00"
         }
       ]
@@ -4666,6 +5086,7 @@
         {
           "id": 49346827092241,
           "title": "White / 2X",
+          "sku": "HOT1609",
           "price": "14.50"
         }
       ]
@@ -4698,26 +5119,31 @@
         {
           "id": 49330636030225,
           "title": "White / S",
+          "sku": "HOT1608",
           "price": "15.50"
         },
         {
           "id": 49330636062993,
           "title": "White / M",
+          "sku": "HOT1608",
           "price": "15.50"
         },
         {
           "id": 49330636095761,
           "title": "White / L",
+          "sku": "HOT1608",
           "price": "15.50"
         },
         {
           "id": 49330636128529,
           "title": "White / XL",
+          "sku": "HOT1608",
           "price": "15.50"
         },
         {
           "id": 49330636161297,
           "title": "White / 2X",
+          "sku": "HOT1608",
           "price": "17.50"
         }
       ]
@@ -4749,11 +5175,13 @@
         {
           "id": 49330594808081,
           "title": "Black / XL",
+          "sku": "HOT1607",
           "price": "17.00"
         },
         {
           "id": 49330594840849,
           "title": "Black / 2X",
+          "sku": "HOT1607",
           "price": "20.00"
         }
       ]
@@ -4785,6 +5213,7 @@
         {
           "id": 49330522390801,
           "title": "Black / XL",
+          "sku": "HOT1606",
           "price": "17.00"
         }
       ]
@@ -4816,11 +5245,13 @@
         {
           "id": 49330257658129,
           "title": "White / XL",
+          "sku": "HOT1603",
           "price": "16.50"
         },
         {
           "id": 49330257690897,
           "title": "White / 2X",
+          "sku": "HOT1603",
           "price": "20.50"
         }
       ]
@@ -4848,6 +5279,7 @@
         {
           "id": 49329826890001,
           "title": "Grey / 3 Piece Pkg",
+          "sku": "HWXSEAT",
           "price": "135.00"
         }
       ]
@@ -4879,26 +5311,31 @@
         {
           "id": 49019261681937,
           "title": "DkGryHthr / S",
+          "sku": "HOT310",
           "price": "26.20"
         },
         {
           "id": 49019261714705,
           "title": "DkGryHthr / M",
+          "sku": "HOT310",
           "price": "26.20"
         },
         {
           "id": 49019261747473,
           "title": "DkGryHthr / L",
+          "sku": "HOT310",
           "price": "26.20"
         },
         {
           "id": 49019261780241,
           "title": "DkGryHthr / XL",
+          "sku": "HOT310",
           "price": "26.20"
         },
         {
           "id": 49019261813009,
           "title": "DkGryHthr / 2X",
+          "sku": "HOT310",
           "price": "29.50"
         }
       ]
@@ -4930,6 +5367,7 @@
         {
           "id": 49002205249809,
           "title": "White / 2X",
+          "sku": "HOT1336",
           "price": "20.00"
         }
       ]
@@ -4960,6 +5398,7 @@
         {
           "id": 49002140369169,
           "title": "Peachy / 26 28",
+          "sku": "HOT1341",
           "price": "17.50"
         }
       ]
@@ -4991,6 +5430,7 @@
         {
           "id": 49001900048657,
           "title": "White / XL",
+          "sku": "HOT383",
           "price": "17.00"
         }
       ]
@@ -5023,31 +5463,37 @@
         {
           "id": 48567057678609,
           "title": "Black / S",
+          "sku": "HOT706",
           "price": "33.50"
         },
         {
           "id": 48567057711377,
           "title": "Black / M",
+          "sku": "HOT706",
           "price": "33.50"
         },
         {
           "id": 48567057744145,
           "title": "Black / L",
+          "sku": "HOT706",
           "price": "33.50"
         },
         {
           "id": 48567057776913,
           "title": "Black / XL",
+          "sku": "HOT706",
           "price": "33.50"
         },
         {
           "id": 48567057809681,
           "title": "Black / 2X",
+          "sku": "HOT706",
           "price": "35.50"
         },
         {
           "id": 48567057842449,
           "title": "Black / 3X",
+          "sku": "HOT706",
           "price": "39.50"
         }
       ]
@@ -5069,6 +5515,7 @@
         {
           "id": 48212801913105,
           "title": "Black",
+          "sku": "HOT1515",
           "price": "2.50"
         }
       ]
@@ -5090,6 +5537,7 @@
         {
           "id": 48107490705681,
           "title": "Wht Org",
+          "sku": "HOT496",
           "price": "81.00"
         }
       ]
@@ -5111,6 +5559,7 @@
         {
           "id": 47883169890577,
           "title": "Black",
+          "sku": "HOT1561",
           "price": "120.00"
         }
       ]
@@ -5132,6 +5581,7 @@
         {
           "id": 47883169267985,
           "title": "Black",
+          "sku": "HOT1556",
           "price": "138.00"
         }
       ]
@@ -5161,21 +5611,25 @@
         {
           "id": 47820639043857,
           "title": "Orange / 100 Piece Pkg",
+          "sku": "HOT520",
           "price": "206.00"
         },
         {
           "id": 47820639011089,
           "title": "Orange / 300 Piece Pkg",
+          "sku": "HOT520",
           "price": "402.00"
         },
         {
           "id": 47820639240465,
           "title": "Red / 100 Piece Pkg",
+          "sku": "HOT521",
           "price": "206.00"
         },
         {
           "id": 47820639207697,
           "title": "Red / 300 Piece Pkg",
+          "sku": "HOT521",
           "price": "402.00"
         }
       ]
@@ -5197,6 +5651,7 @@
         {
           "id": 47883170939153,
           "title": "Full Color",
+          "sku": "HWXSELF",
           "price": "100.00"
         }
       ]
@@ -5230,36 +5685,43 @@
         {
           "id": 47383877910801,
           "title": "Hthr Char / XS",
+          "sku": "LOC015",
           "price": "15.90"
         },
         {
           "id": 47383877943569,
           "title": "Hthr Char / S",
+          "sku": "LOC015",
           "price": "15.90"
         },
         {
           "id": 47383877976337,
           "title": "Hthr Char / M",
+          "sku": "LOC015",
           "price": "15.90"
         },
         {
           "id": 47383878009105,
           "title": "Hthr Char / L",
+          "sku": "LOC015",
           "price": "15.90"
         },
         {
           "id": 47383878041873,
           "title": "Hthr Char / XL",
+          "sku": "LOC015",
           "price": "15.90"
         },
         {
           "id": 47383878074641,
           "title": "Hthr Char / 2X",
+          "sku": "LOC015",
           "price": "19.92"
         },
         {
           "id": 47383878107409,
           "title": "Hthr Char / 3X",
+          "sku": "LOC015",
           "price": "21.90"
         }
       ]
@@ -5293,36 +5755,43 @@
         {
           "id": 47358920556817,
           "title": "Hthr Grey / XS",
+          "sku": "HOT303",
           "price": "21.40"
         },
         {
           "id": 47358920589585,
           "title": "Hthr Grey / S",
+          "sku": "HOT303",
           "price": "21.40"
         },
         {
           "id": 47358920622353,
           "title": "Hthr Grey / M",
+          "sku": "HOT303",
           "price": "21.40"
         },
         {
           "id": 47358920655121,
           "title": "Hthr Grey / L",
+          "sku": "HOT303",
           "price": "21.40"
         },
         {
           "id": 47358920687889,
           "title": "Hthr Grey / XL",
+          "sku": "HOT303",
           "price": "21.40"
         },
         {
           "id": 47358920720657,
           "title": "Hthr Grey / 2X",
+          "sku": "HOT303",
           "price": "25.40"
         },
         {
           "id": 47358920753425,
           "title": "Hthr Grey / 3X",
+          "sku": "HOT303",
           "price": "26.40"
         }
       ]
@@ -5356,36 +5825,43 @@
         {
           "id": 47358841684241,
           "title": "White / XS",
+          "sku": "HOT135",
           "price": "71.00"
         },
         {
           "id": 47358728077585,
           "title": "White / S",
+          "sku": "HOT135",
           "price": "71.00"
         },
         {
           "id": 47358728110353,
           "title": "White / M",
+          "sku": "HOT135",
           "price": "71.00"
         },
         {
           "id": 47358728143121,
           "title": "White / L",
+          "sku": "HOT135",
           "price": "71.00"
         },
         {
           "id": 47358728175889,
           "title": "White / XL",
+          "sku": "HOT135",
           "price": "71.00"
         },
         {
           "id": 47358728208657,
           "title": "White / 2X",
+          "sku": "HOT135",
           "price": "73.00"
         },
         {
           "id": 47358728241425,
           "title": "White / 3X",
+          "sku": "HOT135",
           "price": "77.00"
         }
       ]
@@ -5419,36 +5895,43 @@
         {
           "id": 47358016651537,
           "title": "Black / XS",
+          "sku": "HOT145",
           "price": "110.00"
         },
         {
           "id": 47358016454929,
           "title": "Black / S",
+          "sku": "HOT145",
           "price": "110.00"
         },
         {
           "id": 47358016487697,
           "title": "Black / M",
+          "sku": "HOT145",
           "price": "110.00"
         },
         {
           "id": 47358016520465,
           "title": "Black / L",
+          "sku": "HOT145",
           "price": "110.00"
         },
         {
           "id": 47358016553233,
           "title": "Black / XL",
+          "sku": "HOT145",
           "price": "110.00"
         },
         {
           "id": 47358016586001,
           "title": "Black / 2X",
+          "sku": "HOT145",
           "price": "112.00"
         },
         {
           "id": 47358016618769,
           "title": "Black / 3X",
+          "sku": "HOT145",
           "price": "116.00"
         }
       ]
@@ -5481,31 +5964,37 @@
         {
           "id": 47357533258001,
           "title": "Battleship / S",
+          "sku": "HOT130",
           "price": "78.00"
         },
         {
           "id": 47357533323537,
           "title": "Battleship / M",
+          "sku": "HOT130",
           "price": "78.00"
         },
         {
           "id": 47357533389073,
           "title": "Battleship / L",
+          "sku": "HOT130",
           "price": "78.00"
         },
         {
           "id": 47357533454609,
           "title": "Battleship / XL",
+          "sku": "HOT130",
           "price": "78.00"
         },
         {
           "id": 47357533487377,
           "title": "Battleship / 2X",
+          "sku": "HOT130",
           "price": "80.00"
         },
         {
           "id": 47357533520145,
           "title": "Battleship / 3X",
+          "sku": "HOT130",
           "price": "84.00"
         }
       ]
@@ -5536,16 +6025,19 @@
         {
           "id": 47353173934353,
           "title": "Red / 50 piece pkg",
+          "sku": "HOT565",
           "price": "285.00"
         },
         {
           "id": 48019585597713,
           "title": "Red / 100 piece pkg",
+          "sku": "HOT565",
           "price": "504.00"
         },
         {
           "id": 48019585630481,
           "title": "Red / 300 piece pkg",
+          "sku": "HOT565",
           "price": "1248.00"
         }
       ]
@@ -5576,31 +6068,37 @@
         {
           "id": 47353153356049,
           "title": "Black / 100 Piece Pkg",
+          "sku": "HOT550",
           "price": "380.00"
         },
         {
           "id": 47353153388817,
           "title": "Black / 500 Piece Pkg",
+          "sku": "HOT550",
           "price": "1450.00"
         },
         {
           "id": 47353153421585,
           "title": "Black / 1000 Piece Pkg",
+          "sku": "HOT550",
           "price": "2700.00"
         },
         {
           "id": 47382391128337,
           "title": "Grey / 100 Piece Pkg",
+          "sku": "HOT551",
           "price": "380.00"
         },
         {
           "id": 47382391161105,
           "title": "Grey / 500 Piece Pkg",
+          "sku": "HOT551",
           "price": "1450.00"
         },
         {
           "id": 47382391193873,
           "title": "Grey / 1000 Piece Pkg",
+          "sku": "HOT551",
           "price": "2700.00"
         }
       ]
@@ -5632,26 +6130,31 @@
         {
           "id": 47353136021777,
           "title": "White / 25 Piece Pkg",
+          "sku": "HOT1575",
           "price": "355.00"
         },
         {
           "id": 47353136054545,
           "title": "White / 50 Piece Pkg",
+          "sku": "HOT1575",
           "price": "650.00"
         },
         {
           "id": 47353136087313,
           "title": "White / 150 Piece Pkg",
+          "sku": "HOT1575",
           "price": "1860.00"
         },
         {
           "id": 47353136120081,
           "title": "White / 300 Piece Pkg",
+          "sku": "HOT1575",
           "price": "3240.00"
         },
         {
           "id": 47353136152849,
           "title": "White / 500 Piece Pkg",
+          "sku": "HOT1575",
           "price": "5150.00"
         }
       ]
@@ -5683,26 +6186,31 @@
         {
           "id": 47353120391441,
           "title": "Lt Grey / 48 Piece Pkg",
+          "sku": "HOT1510",
           "price": "496.32"
         },
         {
           "id": 47353111609617,
           "title": "Lt Grey / 72 Piece Pkg",
+          "sku": "HOT1510",
           "price": "692.64"
         },
         {
           "id": 47353111675153,
           "title": "Lt Grey / 144 Piece Pkg",
+          "sku": "HOT1510",
           "price": "1298.88"
         },
         {
           "id": 47353111707921,
           "title": "Lt Grey / 288 Piece Pkg",
+          "sku": "HOT1510",
           "price": "2396.16"
         },
         {
           "id": 47353111773457,
           "title": "Lt Grey / 576 Piece Pkg",
+          "sku": "HOT1510",
           "price": "4492.80"
         }
       ]
@@ -5733,21 +6241,25 @@
         {
           "id": 47341494239505,
           "title": "Black / 200 Piece Pkg",
+          "sku": "HOT590",
           "price": "464.00"
         },
         {
           "id": 47341494272273,
           "title": "Black / 300 Piece Pkg",
+          "sku": "HOT590",
           "price": "648.00"
         },
         {
           "id": 47341494305041,
           "title": "Black / 500 Piece Pkg",
+          "sku": "HOT590",
           "price": "990.00"
         },
         {
           "id": 47341498499345,
           "title": "Black / 1000 Piece Pkg",
+          "sku": "HOT590",
           "price": "1900.00"
         }
       ]
@@ -5779,21 +6291,25 @@
         {
           "id": 47341482705169,
           "title": "White / M",
+          "sku": "HOT1360",
           "price": "18.00"
         },
         {
           "id": 47341482737937,
           "title": "White / L",
+          "sku": "HOT1360",
           "price": "18.00"
         },
         {
           "id": 47341482770705,
           "title": "White / XL",
+          "sku": "HOT1360",
           "price": "18.00"
         },
         {
           "id": 47341482803473,
           "title": "White / 2X",
+          "sku": "HOT1360",
           "price": "19.80"
         }
       ]
@@ -5815,6 +6331,7 @@
         {
           "id": 47880233222417,
           "title": "Black",
+          "sku": "HOT515",
           "price": "420.00"
         }
       ]
@@ -5836,6 +6353,7 @@
         {
           "id": 47883168350481,
           "title": "Black",
+          "sku": "HOT512",
           "price": "20.00"
         }
       ]
@@ -5857,6 +6375,7 @@
         {
           "id": 47976363458833,
           "title": "Black",
+          "sku": "HOT509",
           "price": "100.00"
         }
       ]
@@ -5878,6 +6397,7 @@
         {
           "id": 47883169169681,
           "title": "Silver",
+          "sku": "HOT508",
           "price": "62.00"
         }
       ]
@@ -5899,6 +6419,7 @@
         {
           "id": 47883167695121,
           "title": "White",
+          "sku": "HOT507",
           "price": "310.00"
         }
       ]
@@ -5920,6 +6441,7 @@
         {
           "id": 47874849964305,
           "title": "White",
+          "sku": "HOT506",
           "price": "398.00"
         }
       ]
@@ -5941,6 +6463,7 @@
         {
           "id": 47874797502737,
           "title": "Full Color",
+          "sku": "HOT1530",
           "price": "100.00"
         }
       ]
@@ -5962,6 +6485,7 @@
         {
           "id": 48009690579217,
           "title": "Cold",
+          "sku": "HOT999",
           "price": "5999.98"
         }
       ]
@@ -5983,6 +6507,7 @@
         {
           "id": 48009691332881,
           "title": "Warm",
+          "sku": "HOT998",
           "price": "5999.98"
         }
       ]
@@ -6004,6 +6529,7 @@
         {
           "id": 47883253874961,
           "title": "Silver",
+          "sku": "HOT511",
           "price": "30.00"
         }
       ]
@@ -6025,6 +6551,7 @@
         {
           "id": 47883168284945,
           "title": "Black",
+          "sku": "HOT510",
           "price": "116.00"
         }
       ]
@@ -6055,21 +6582,25 @@
         {
           "id": 47341208371473,
           "title": "Black / 150 Piece Pkg",
+          "sku": "HOT555",
           "price": "327.00"
         },
         {
           "id": 47341204701457,
           "title": "Black / 300 Piece Pkg",
+          "sku": "HOT555",
           "price": "510.00"
         },
         {
           "id": 47341204734225,
           "title": "Black / 500 Piece Pkg",
+          "sku": "HOT555",
           "price": "750.00"
         },
         {
           "id": 47341204766993,
           "title": "Black / 1000 Piece Pkg",
+          "sku": "HOT555",
           "price": "1300.00"
         }
       ]
@@ -6091,6 +6622,7 @@
         {
           "id": 47883102683409,
           "title": "Variety",
+          "sku": "HOT1520",
           "price": "390.00"
         }
       ]
@@ -6112,6 +6644,7 @@
         {
           "id": 47874755690769,
           "title": "Orange",
+          "sku": "HOT1555",
           "price": "1638.00"
         }
       ]
@@ -6142,31 +6675,37 @@
         {
           "id": 47336295301393,
           "title": "Orange / 300 Piece Pkg",
+          "sku": "HOT1565",
           "price": "408.00"
         },
         {
           "id": 47336295334161,
           "title": "Orange / 500 Piece Pkg",
+          "sku": "HOT1565",
           "price": "600.00"
         },
         {
           "id": 47336295366929,
           "title": "Orange / 1000 Piece Pkg",
+          "sku": "HOT1565",
           "price": "1160.00"
         },
         {
           "id": 47382415769873,
           "title": "Red / 300 Piece Pkg",
+          "sku": "HOT1566",
           "price": "408.00"
         },
         {
           "id": 47382415802641,
           "title": "Red / 500 Piece Pkg",
+          "sku": "HOT1566",
           "price": "600.00"
         },
         {
           "id": 47382415835409,
           "title": "Red / 1000 Piece Pkg",
+          "sku": "HOT1566",
           "price": "1160.00"
         }
       ]
@@ -6198,46 +6737,55 @@
         {
           "id": 47336285307153,
           "title": "Orange / 300 Piece Pkg",
+          "sku": "HOT546",
           "price": "324.00"
         },
         {
           "id": 47336285339921,
           "title": "Orange / 500 Piece Pkg",
+          "sku": "HOT546",
           "price": "470.00"
         },
         {
           "id": 47336285372689,
           "title": "Orange / 1000 Piece Pkg",
+          "sku": "HOT546",
           "price": "880.00"
         },
         {
           "id": 47382423699729,
           "title": "Black / 300 Piece Pkg",
+          "sku": "HOT547",
           "price": "324.00"
         },
         {
           "id": 47382423732497,
           "title": "Black / 500 Piece Pkg",
+          "sku": "HOT547",
           "price": "470.00"
         },
         {
           "id": 47382423765265,
           "title": "Black / 1000 Piece Pkg",
+          "sku": "HOT547",
           "price": "880.00"
         },
         {
           "id": 47382423798033,
           "title": "Red / 300 Piece Pkg",
+          "sku": "HOT548",
           "price": "324.00"
         },
         {
           "id": 47382423830801,
           "title": "Red / 500 Piece Pkg",
+          "sku": "HOT548",
           "price": "470.00"
         },
         {
           "id": 47382423863569,
           "title": "Red / 1000 Piece Pkg",
+          "sku": "HOT548",
           "price": "880.00"
         }
       ]
@@ -6268,16 +6816,19 @@
         {
           "id": 47382411247889,
           "title": "Wht Grey / 300 Piece Pkg",
+          "sku": "HOT541",
           "price": "570.00"
         },
         {
           "id": 47382411280657,
           "title": "Wht Grey / 500 Piece Pkg",
+          "sku": "HOT541",
           "price": "840.00"
         },
         {
           "id": 47382411313425,
           "title": "Wht Grey / 1000 Piece Pkg",
+          "sku": "HOT541",
           "price": "1560.00"
         }
       ]
@@ -6308,21 +6859,25 @@
         {
           "id": 47336245199121,
           "title": "Clear / 50 Piece Pkg",
+          "sku": "HOT940",
           "price": "138.00"
         },
         {
           "id": 47336245297425,
           "title": "Clear / 100 Piece Pkg",
+          "sku": "HOT940",
           "price": "236.00"
         },
         {
           "id": 47336245330193,
           "title": "Clear / 250 Piece Pkg",
+          "sku": "HOT940",
           "price": "555.00"
         },
         {
           "id": 47336254275857,
           "title": "Clear / 500 Piece Pkg",
+          "sku": "HOT940",
           "price": "1040.00"
         }
       ]
@@ -6353,21 +6908,25 @@
         {
           "id": 47336215216401,
           "title": "White / 25 Piece Pkg",
+          "sku": "HOT955",
           "price": "91.50"
         },
         {
           "id": 47336215249169,
           "title": "White / 50 Piece Pkg",
+          "sku": "HOT955",
           "price": "167.00"
         },
         {
           "id": 47336215281937,
           "title": "White / 100 Piece Pkg",
+          "sku": "HOT955",
           "price": "284.00"
         },
         {
           "id": 47336215314705,
           "title": "White / 250 Piece Pkg",
+          "sku": "HOT955",
           "price": "640.00"
         }
       ]
@@ -6398,21 +6957,25 @@
         {
           "id": 47336193163537,
           "title": "Black / 100 Piece Pkg",
+          "sku": "HOT1500",
           "price": "214.00"
         },
         {
           "id": 47336193196305,
           "title": "Black / 300 Piece Pkg",
+          "sku": "HOT1500",
           "price": "576.00"
         },
         {
           "id": 47336193229073,
           "title": "Black / 500 Piece Pkg",
+          "sku": "HOT1500",
           "price": "820.00"
         },
         {
           "id": 47336197259537,
           "title": "Black / 1000 Piece Pkg",
+          "sku": "HOT1500",
           "price": "1340.00"
         }
       ]
@@ -6446,36 +7009,43 @@
         {
           "id": 47335795753233,
           "title": "Med Grey / XS",
+          "sku": "HOT322",
           "price": "25.80"
         },
         {
           "id": 47335795786001,
           "title": "Med Grey / S",
+          "sku": "HOT322",
           "price": "25.80"
         },
         {
           "id": 47335795818769,
           "title": "Med Grey / M",
+          "sku": "HOT322",
           "price": "25.80"
         },
         {
           "id": 47335795851537,
           "title": "Med Grey / L",
+          "sku": "HOT322",
           "price": "25.80"
         },
         {
           "id": 47335795884305,
           "title": "Med Grey / XL",
+          "sku": "HOT322",
           "price": "25.80"
         },
         {
           "id": 47335795917073,
           "title": "Med Grey / 2X",
+          "sku": "HOT322",
           "price": "27.00"
         },
         {
           "id": 47335795949841,
           "title": "Med Grey / 3X",
+          "sku": "HOT322",
           "price": "28.20"
         }
       ]
@@ -6506,21 +7076,25 @@
         {
           "id": 47335792148753,
           "title": "Black / XS",
+          "sku": "HOT1326",
           "price": "63.90"
         },
         {
           "id": 47335792181521,
           "title": "Black / S/M",
+          "sku": "HOT1326",
           "price": "63.90"
         },
         {
           "id": 47335792247057,
           "title": "Black / L/XL",
+          "sku": "HOT1326",
           "price": "63.90"
         },
         {
           "id": 47335792312593,
           "title": "Black / 2X",
+          "sku": "HOT1326",
           "price": "65.90"
         }
       ]
@@ -6554,36 +7128,43 @@
         {
           "id": 47335783006481,
           "title": "Grey Hthr / XS",
+          "sku": "HOT317",
           "price": "69.90"
         },
         {
           "id": 47335783039249,
           "title": "Grey Hthr / S",
+          "sku": "HOT317",
           "price": "69.90"
         },
         {
           "id": 47335783072017,
           "title": "Grey Hthr / M",
+          "sku": "HOT317",
           "price": "69.90"
         },
         {
           "id": 47335783104785,
           "title": "Grey Hthr / L",
+          "sku": "HOT317",
           "price": "69.90"
         },
         {
           "id": 47335783137553,
           "title": "Grey Hthr / XL",
+          "sku": "HOT317",
           "price": "69.90"
         },
         {
           "id": 47335783170321,
           "title": "Grey Hthr / 2X",
+          "sku": "HOT317",
           "price": "71.90"
         },
         {
           "id": 47335783203089,
           "title": "Grey Hthr / 3X",
+          "sku": "HOT317",
           "price": "75.90"
         }
       ]
@@ -6616,31 +7197,37 @@
         {
           "id": 47335749386513,
           "title": "Carbon Hthr / S",
+          "sku": "HOT735",
           "price": "68.50"
         },
         {
           "id": 47335749419281,
           "title": "Carbon Hthr / M",
+          "sku": "HOT735",
           "price": "68.50"
         },
         {
           "id": 47335749452049,
           "title": "Carbon Hthr / L",
+          "sku": "HOT735",
           "price": "68.50"
         },
         {
           "id": 47335749484817,
           "title": "Carbon Hthr / XL",
+          "sku": "HOT735",
           "price": "68.50"
         },
         {
           "id": 47335749517585,
           "title": "Carbon Hthr / 2X",
+          "sku": "HOT735",
           "price": "70.50"
         },
         {
           "id": 47335756300561,
           "title": "Carbon Hthr / 3X",
+          "sku": "HOT735",
           "price": "74.50"
         }
       ]
@@ -6674,36 +7261,43 @@
         {
           "id": 47335729266961,
           "title": "Grey / XS",
+          "sku": "HOT316",
           "price": "44.70"
         },
         {
           "id": 47335729299729,
           "title": "Grey / S",
+          "sku": "HOT316",
           "price": "44.70"
         },
         {
           "id": 47335729332497,
           "title": "Grey / M",
+          "sku": "HOT316",
           "price": "44.70"
         },
         {
           "id": 47335729365265,
           "title": "Grey / L",
+          "sku": "HOT316",
           "price": "44.70"
         },
         {
           "id": 47335729398033,
           "title": "Grey / XL",
+          "sku": "HOT316",
           "price": "44.70"
         },
         {
           "id": 47335729430801,
           "title": "Grey / 2X",
+          "sku": "HOT316",
           "price": "48.70"
         },
         {
           "id": 47335729463569,
           "title": "Grey / 3X",
+          "sku": "HOT316",
           "price": "50.70"
         }
       ]
@@ -6736,21 +7330,25 @@
         {
           "id": 47335687192849,
           "title": "Black / S",
+          "sku": "HOT2370",
           "price": "17.00"
         },
         {
           "id": 47335687225617,
           "title": "Black / M",
+          "sku": "HOT2370",
           "price": "17.00"
         },
         {
           "id": 47335687323921,
           "title": "Black / 2X",
+          "sku": "HOT2370",
           "price": "18.40"
         },
         {
           "id": 47335701348625,
           "title": "Black / 3X",
+          "sku": "HOT2370",
           "price": "21.20"
         }
       ]
@@ -6784,36 +7382,43 @@
         {
           "id": 47335667859729,
           "title": "DpOrgHthr / XS",
+          "sku": "HOT370",
           "price": "30.90"
         },
         {
           "id": 47335667892497,
           "title": "DpOrgHthr / S",
+          "sku": "HOT370",
           "price": "30.90"
         },
         {
           "id": 47335667925265,
           "title": "DpOrgHthr / M",
+          "sku": "HOT370",
           "price": "30.90"
         },
         {
           "id": 47335667958033,
           "title": "DpOrgHthr / L",
+          "sku": "HOT370",
           "price": "30.90"
         },
         {
           "id": 47335667990801,
           "title": "DpOrgHthr / XL",
+          "sku": "HOT370",
           "price": "30.90"
         },
         {
           "id": 47335668023569,
           "title": "DpOrgHthr / 2X",
+          "sku": "HOT370",
           "price": "32.90"
         },
         {
           "id": 47335668056337,
           "title": "DpOrgHthr / 3X",
+          "sku": "HOT370",
           "price": "36.90"
         }
       ]
@@ -6847,36 +7452,43 @@
         {
           "id": 47335638663441,
           "title": "Black / XS",
+          "sku": "HOT625",
           "price": "69.90"
         },
         {
           "id": 47335638696209,
           "title": "Black / S",
+          "sku": "HOT625",
           "price": "69.90"
         },
         {
           "id": 47335638728977,
           "title": "Black / M",
+          "sku": "HOT625",
           "price": "69.90"
         },
         {
           "id": 47335638761745,
           "title": "Black / L",
+          "sku": "HOT625",
           "price": "69.90"
         },
         {
           "id": 47335638794513,
           "title": "Black / XL",
+          "sku": "HOT625",
           "price": "69.90"
         },
         {
           "id": 47335638827281,
           "title": "Black / 2X",
+          "sku": "HOT625",
           "price": "71.90"
         },
         {
           "id": 47335638860049,
           "title": "Black / 3X",
+          "sku": "HOT625",
           "price": "75.90"
         }
       ]
@@ -6910,11 +7522,13 @@
         {
           "id": 47335624278289,
           "title": "Black / 2X",
+          "sku": "HOT391",
           "price": "40.20"
         },
         {
           "id": 47335624311057,
           "title": "Black / 3X",
+          "sku": "HOT391",
           "price": "43.00"
         }
       ]
@@ -6947,31 +7561,37 @@
         {
           "id": 47335617167633,
           "title": "Storm / XS",
+          "sku": "HOT1315",
           "price": "17.50"
         },
         {
           "id": 47335617200401,
           "title": "Storm / S",
+          "sku": "HOT1315",
           "price": "17.50"
         },
         {
           "id": 47335617233169,
           "title": "Storm / M",
+          "sku": "HOT1315",
           "price": "17.50"
         },
         {
           "id": 47335617265937,
           "title": "Storm / L",
+          "sku": "HOT1315",
           "price": "17.50"
         },
         {
           "id": 47335617298705,
           "title": "Storm / XL",
+          "sku": "HOT1315",
           "price": "17.50"
         },
         {
           "id": 47335617331473,
           "title": "Storm / 2X",
+          "sku": "HOT1315",
           "price": "20.00"
         }
       ]
@@ -7001,16 +7621,19 @@
         {
           "id": 47286139191569,
           "title": "Full Color / 25 Piece Pkg",
+          "sku": "HOT460",
           "price": "237.50"
         },
         {
           "id": 47286139224337,
           "title": "Full Color / 50 Piece Pkg",
+          "sku": "HOT460",
           "price": "385.00"
         },
         {
           "id": 47286139257105,
           "title": "Full Color / 100 Piece Pkg",
+          "sku": "HOT460",
           "price": "670.00"
         }
       ]
@@ -7041,16 +7664,19 @@
         {
           "id": 47383845962001,
           "title": "Black / 25 Piece Pkg",
+          "sku": "HOT412",
           "price": "325.00"
         },
         {
           "id": 47383845994769,
           "title": "Black / 50 Piece Pkg",
+          "sku": "HOT412",
           "price": "550.00"
         },
         {
           "id": 47383846027537,
           "title": "Black / 100 Piece Pkg",
+          "sku": "HOT412",
           "price": "970.00"
         }
       ]
@@ -7081,21 +7707,25 @@
         {
           "id": 47286023979281,
           "title": "Black / 5 Piece Pkg",
+          "sku": "HOT1570",
           "price": "200.00"
         },
         {
           "id": 47286024012049,
           "title": "Black / 10 Piece Pkg",
+          "sku": "HOT1570",
           "price": "380.00"
         },
         {
           "id": 47286024044817,
           "title": "Black / 25 Piece Pkg",
+          "sku": "HOT1570",
           "price": "912.50"
         },
         {
           "id": 47286024077585,
           "title": "Black / 50 Piece Pkg",
+          "sku": "HOT1570",
           "price": "1775.00"
         }
       ]
@@ -7129,81 +7759,97 @@
         {
           "id": 47286006776081,
           "title": "Black / 12 Piece Pkg",
+          "sku": "HOT945",
           "price": "264.00"
         },
         {
           "id": 47286019358993,
           "title": "Black / 24 Piece Pkg",
+          "sku": "HOT945",
           "price": "465.60"
         },
         {
           "id": 47286019391761,
           "title": "Black / 48 Piece Pkg",
+          "sku": "HOT945",
           "price": "872.64"
         },
         {
           "id": 47286019424529,
           "title": "Black / 96 Piece Pkg",
+          "sku": "HOT945",
           "price": "1660.80"
         },
         {
           "id": 49041605296401,
           "title": "Charcoal / 12 Piece Pkg",
+          "sku": "HOT946",
           "price": "264.00"
         },
         {
           "id": 49041605329169,
           "title": "Charcoal / 24 Piece Pkg",
+          "sku": "HOT946",
           "price": "465.60"
         },
         {
           "id": 49041605361937,
           "title": "Charcoal / 48 Piece Pkg",
+          "sku": "HOT946",
           "price": "872.64"
         },
         {
           "id": 49041605394705,
           "title": "Charcoal / 96 Piece Pkg",
+          "sku": "HOT946",
           "price": "1660.80"
         },
         {
           "id": 49032427962641,
           "title": "White / 12 Piece Pkg",
+          "sku": "HOT947",
           "price": "264.00"
         },
         {
           "id": 49032427995409,
           "title": "White / 24 Piece Pkg",
+          "sku": "HOT947",
           "price": "485.00"
         },
         {
           "id": 49032428028177,
           "title": "White / 48 Piece Pkg",
+          "sku": "HOT947",
           "price": "909.00"
         },
         {
           "id": 49032428060945,
           "title": "White / 96 Piece Pkg",
+          "sku": "HOT947",
           "price": "1730.00"
         },
         {
           "id": 50139736801553,
           "title": "Variety / 12 Piece Pkg",
+          "sku": "HOT948",
           "price": "264.00"
         },
         {
           "id": 50139736834321,
           "title": "Variety / 24 Piece Pkg",
+          "sku": "HOT948",
           "price": "465.60"
         },
         {
           "id": 50139736867089,
           "title": "Variety / 48 Piece Pkg",
+          "sku": "HOT948",
           "price": "872.64"
         },
         {
           "id": 50139736899857,
           "title": "Variety / 96 Piece Pkg",
+          "sku": "HOT948",
           "price": "1660.80"
         }
       ]
@@ -7225,6 +7871,7 @@
         {
           "id": 47874785804561,
           "title": "Black",
+          "sku": "AMB003",
           "price": "112.00"
         }
       ]
@@ -7246,6 +7893,7 @@
         {
           "id": 47874792292625,
           "title": "Black",
+          "sku": "HOT480",
           "price": "112.00"
         }
       ]
@@ -7267,6 +7915,7 @@
         {
           "id": 47285859811601,
           "title": "Khaki",
+          "sku": "HOT471",
           "price": "108.00"
         }
       ]
@@ -7288,6 +7937,7 @@
         {
           "id": 47880252555537,
           "title": "White",
+          "sku": "HOT466",
           "price": "108.00"
         }
       ]
@@ -7320,31 +7970,37 @@
         {
           "id": 47285750399249,
           "title": "Black / S",
+          "sku": "HOT726",
           "price": "67.30"
         },
         {
           "id": 47285750432017,
           "title": "Black / M",
+          "sku": "HOT726",
           "price": "67.30"
         },
         {
           "id": 47285750464785,
           "title": "Black / L",
+          "sku": "HOT726",
           "price": "67.30"
         },
         {
           "id": 47285750497553,
           "title": "Black / XL",
+          "sku": "HOT726",
           "price": "67.30"
         },
         {
           "id": 47285750530321,
           "title": "Black / 2X",
+          "sku": "HOT726",
           "price": "69.30"
         },
         {
           "id": 47285750563089,
           "title": "Black / 3X",
+          "sku": "HOT726",
           "price": "73.30"
         }
       ]
@@ -7377,31 +8033,37 @@
         {
           "id": 47285729886481,
           "title": "Silver / S",
+          "sku": "HOT725",
           "price": "40.50"
         },
         {
           "id": 47285729919249,
           "title": "Silver / M",
+          "sku": "HOT725",
           "price": "40.50"
         },
         {
           "id": 47285729952017,
           "title": "Silver / L",
+          "sku": "HOT725",
           "price": "40.50"
         },
         {
           "id": 47285729984785,
           "title": "Silver / XL",
+          "sku": "HOT725",
           "price": "40.50"
         },
         {
           "id": 47285730017553,
           "title": "Silver / 2X",
+          "sku": "HOT725",
           "price": "42.50"
         },
         {
           "id": 47285730050321,
           "title": "Silver / 3X",
+          "sku": "HOT725",
           "price": "46.50"
         }
       ]
@@ -7435,11 +8097,13 @@
         {
           "id": 47285482651921,
           "title": "Espresso / XS",
+          "sku": "HOT1322",
           "price": "16.00"
         },
         {
           "id": 47285482848529,
           "title": "Espresso / 3X",
+          "sku": "HOT1322",
           "price": "22.00"
         }
       ]
@@ -7473,36 +8137,43 @@
         {
           "id": 47285459419409,
           "title": "Indigo / XS",
+          "sku": "HOT1321",
           "price": "26.00"
         },
         {
           "id": 47285459452177,
           "title": "Indigo / S",
+          "sku": "HOT1321",
           "price": "26.00"
         },
         {
           "id": 47285459484945,
           "title": "Indigo / M",
+          "sku": "HOT1321",
           "price": "26.00"
         },
         {
           "id": 47285459517713,
           "title": "Indigo / L",
+          "sku": "HOT1321",
           "price": "26.00"
         },
         {
           "id": 47285459550481,
           "title": "Indigo / XL",
+          "sku": "HOT1321",
           "price": "26.00"
         },
         {
           "id": 47285459583249,
           "title": "Indigo / 2X",
+          "sku": "HOT1321",
           "price": "29.00"
         },
         {
           "id": 47285459616017,
           "title": "Indigo / 3X",
+          "sku": "HOT1321",
           "price": "31.50"
         }
       ]
@@ -7535,11 +8206,13 @@
         {
           "id": 47285447491857,
           "title": "Red / XL",
+          "sku": "HOT366",
           "price": "20.90"
         },
         {
           "id": 47285447524625,
           "title": "Red / 2X",
+          "sku": "HOT366",
           "price": "22.30"
         }
       ]
@@ -7572,16 +8245,19 @@
         {
           "id": 47285414723857,
           "title": "Shadow / S",
+          "sku": "HOT2330",
           "price": "48.00"
         },
         {
           "id": 47285414822161,
           "title": "Shadow / XL",
+          "sku": "HOT2330",
           "price": "48.00"
         },
         {
           "id": 47285414854929,
           "title": "Shadow / 2X",
+          "sku": "HOT2330",
           "price": "52.00"
         }
       ]
@@ -7614,31 +8290,37 @@
         {
           "id": 47285404074257,
           "title": "Blk Camo / XS",
+          "sku": "HOT2340",
           "price": "63.90"
         },
         {
           "id": 47285392507153,
           "title": "Blk Camo / S",
+          "sku": "HOT2340",
           "price": "63.90"
         },
         {
           "id": 47285392539921,
           "title": "Blk Camo / M",
+          "sku": "HOT2340",
           "price": "63.90"
         },
         {
           "id": 47285392572689,
           "title": "Blk Camo / L",
+          "sku": "HOT2340",
           "price": "63.90"
         },
         {
           "id": 47285392605457,
           "title": "Blk Camo / XL",
+          "sku": "HOT2340",
           "price": "63.90"
         },
         {
           "id": 47285392638225,
           "title": "Blk Camo / 2X",
+          "sku": "HOT2340",
           "price": "67.90"
         }
       ]
@@ -7671,6 +8353,7 @@
         {
           "id": 47285354561809,
           "title": "Sand / S",
+          "sku": "HOT2385",
           "price": "29.00"
         }
       ]
@@ -7703,31 +8386,37 @@
         {
           "id": 47285337129233,
           "title": "Atmosphere / S",
+          "sku": "HOT2377",
           "price": "61.20"
         },
         {
           "id": 47285337162001,
           "title": "Atmosphere / M",
+          "sku": "HOT2377",
           "price": "61.20"
         },
         {
           "id": 47285337194769,
           "title": "Atmosphere / L",
+          "sku": "HOT2377",
           "price": "61.20"
         },
         {
           "id": 47285337227537,
           "title": "Atmosphere / XL",
+          "sku": "HOT2377",
           "price": "61.20"
         },
         {
           "id": 47285337260305,
           "title": "Atmosphere / 2X",
+          "sku": "HOT2377",
           "price": "65.20"
         },
         {
           "id": 47285337293073,
           "title": "Atmosphere / 3X",
+          "sku": "HOT2377",
           "price": "67.20"
         }
       ]
@@ -7760,31 +8449,37 @@
         {
           "id": 47285329297681,
           "title": "Arctic Blue / S",
+          "sku": "HOT2376",
           "price": "61.20"
         },
         {
           "id": 47285329330449,
           "title": "Arctic Blue / M",
+          "sku": "HOT2376",
           "price": "61.20"
         },
         {
           "id": 47285329363217,
           "title": "Arctic Blue / L",
+          "sku": "HOT2376",
           "price": "61.20"
         },
         {
           "id": 47285329395985,
           "title": "Arctic Blue / XL",
+          "sku": "HOT2376",
           "price": "61.20"
         },
         {
           "id": 47285329428753,
           "title": "Arctic Blue / 2X",
+          "sku": "HOT2376",
           "price": "65.20"
         },
         {
           "id": 47285329461521,
           "title": "Arctic Blue / 3X",
+          "sku": "HOT2376",
           "price": "67.20"
         }
       ]
@@ -7817,31 +8512,37 @@
         {
           "id": 47279489712401,
           "title": "Black / XS",
+          "sku": "HOT751",
           "price": "56.50"
         },
         {
           "id": 47279489745169,
           "title": "Black / S",
+          "sku": "HOT751",
           "price": "56.50"
         },
         {
           "id": 47279489777937,
           "title": "Black / M",
+          "sku": "HOT751",
           "price": "56.50"
         },
         {
           "id": 47279489810705,
           "title": "Black / L",
+          "sku": "HOT751",
           "price": "56.50"
         },
         {
           "id": 47279489843473,
           "title": "Black / XL",
+          "sku": "HOT751",
           "price": "56.50"
         },
         {
           "id": 47279489876241,
           "title": "Black / 2X",
+          "sku": "HOT751",
           "price": "58.50"
         }
       ]
@@ -7874,31 +8575,37 @@
         {
           "id": 47279456026897,
           "title": "Nude / XS",
+          "sku": "HOT732",
           "price": "52.50"
         },
         {
           "id": 47279456059665,
           "title": "Nude / S",
+          "sku": "HOT732",
           "price": "52.50"
         },
         {
           "id": 47279456092433,
           "title": "Nude / M",
+          "sku": "HOT732",
           "price": "52.50"
         },
         {
           "id": 47279456125201,
           "title": "Nude / L",
+          "sku": "HOT732",
           "price": "52.50"
         },
         {
           "id": 47279456157969,
           "title": "Nude / XL",
+          "sku": "HOT732",
           "price": "52.50"
         },
         {
           "id": 47279456190737,
           "title": "Nude / 2X",
+          "sku": "HOT732",
           "price": "54.50"
         }
       ]
@@ -7932,26 +8639,31 @@
         {
           "id": 47265779155217,
           "title": "DkGryHthr / XS",
+          "sku": "HOT376",
           "price": "16.50"
         },
         {
           "id": 47265779187985,
           "title": "DkGryHthr / S",
+          "sku": "HOT376",
           "price": "16.50"
         },
         {
           "id": 47265779286289,
           "title": "DkGryHthr / XL",
+          "sku": "HOT376",
           "price": "16.50"
         },
         {
           "id": 47265779319057,
           "title": "DkGryHthr / 2X",
+          "sku": "HOT376",
           "price": "17.70"
         },
         {
           "id": 47265779351825,
           "title": "DkGryHthr / 3X",
+          "sku": "HOT376",
           "price": "20.00"
         }
       ]
@@ -7985,36 +8697,43 @@
         {
           "id": 47265712111889,
           "title": "Black / XS",
+          "sku": "HOT381",
           "price": "30.90"
         },
         {
           "id": 47265712177425,
           "title": "Black / S",
+          "sku": "HOT381",
           "price": "30.90"
         },
         {
           "id": 47265712242961,
           "title": "Black / M",
+          "sku": "HOT381",
           "price": "30.90"
         },
         {
           "id": 47265712308497,
           "title": "Black / L",
+          "sku": "HOT381",
           "price": "30.90"
         },
         {
           "id": 47265712406801,
           "title": "Black / XL",
+          "sku": "HOT381",
           "price": "30.90"
         },
         {
           "id": 47265712472337,
           "title": "Black / 2X",
+          "sku": "HOT381",
           "price": "32.90"
         },
         {
           "id": 47265761624337,
           "title": "Black / 3X",
+          "sku": "HOT381",
           "price": "36.90"
         }
       ]
@@ -8048,36 +8767,43 @@
         {
           "id": 47264063258897,
           "title": "Black / XS",
+          "sku": "HOT215",
           "price": "72.50"
         },
         {
           "id": 47264063291665,
           "title": "Black / S",
+          "sku": "HOT215",
           "price": "72.50"
         },
         {
           "id": 47264063324433,
           "title": "Black / M",
+          "sku": "HOT215",
           "price": "72.50"
         },
         {
           "id": 47264063357201,
           "title": "Black / L",
+          "sku": "HOT215",
           "price": "72.50"
         },
         {
           "id": 47264063389969,
           "title": "Black / XL",
+          "sku": "HOT215",
           "price": "72.50"
         },
         {
           "id": 47264063422737,
           "title": "Black / 2X",
+          "sku": "HOT215",
           "price": "76.50"
         },
         {
           "id": 47264063455505,
           "title": "Black / 3X",
+          "sku": "HOT215",
           "price": "80.50"
         }
       ]
@@ -8111,36 +8837,43 @@
         {
           "id": 47263998837009,
           "title": "Black / XS",
+          "sku": "HOT220",
           "price": "50.00"
         },
         {
           "id": 47263998640401,
           "title": "Black / S",
+          "sku": "HOT220",
           "price": "50.00"
         },
         {
           "id": 47263998673169,
           "title": "Black / M",
+          "sku": "HOT220",
           "price": "50.00"
         },
         {
           "id": 47263998705937,
           "title": "Black / L",
+          "sku": "HOT220",
           "price": "50.00"
         },
         {
           "id": 47263998738705,
           "title": "Black / XL",
+          "sku": "HOT220",
           "price": "52.00"
         },
         {
           "id": 47263998771473,
           "title": "Black / 2X",
+          "sku": "HOT220",
           "price": "56.00"
         },
         {
           "id": 47263998804241,
           "title": "Black / 3X",
+          "sku": "HOT220",
           "price": "50.00"
         }
       ]
@@ -8174,36 +8907,43 @@
         {
           "id": 47263823364369,
           "title": "Rogue / S",
+          "sku": "HOT201",
           "price": "72.50"
         },
         {
           "id": 47263823397137,
           "title": "Rogue / M",
+          "sku": "HOT201",
           "price": "72.50"
         },
         {
           "id": 47263823429905,
           "title": "Rogue / L",
+          "sku": "HOT201",
           "price": "72.50"
         },
         {
           "id": 47263823462673,
           "title": "Rogue / XL",
+          "sku": "HOT201",
           "price": "72.50"
         },
         {
           "id": 47263823495441,
           "title": "Rogue / 2X",
+          "sku": "HOT201",
           "price": "76.50"
         },
         {
           "id": 47263823528209,
           "title": "Rogue / 3X",
+          "sku": "HOT201",
           "price": "80.50"
         },
         {
           "id": 47263823560977,
           "title": "Rogue / 4X",
+          "sku": "HOT201",
           "price": "84.50"
         }
       ]
@@ -8237,36 +8977,43 @@
         {
           "id": 47263423725841,
           "title": "Black / S",
+          "sku": "HOT200",
           "price": "72.50"
         },
         {
           "id": 47263423758609,
           "title": "Black / M",
+          "sku": "HOT200",
           "price": "72.50"
         },
         {
           "id": 47263423791377,
           "title": "Black / L",
+          "sku": "HOT200",
           "price": "72.50"
         },
         {
           "id": 47263423824145,
           "title": "Black / XL",
+          "sku": "HOT200",
           "price": "72.50"
         },
         {
           "id": 47263423856913,
           "title": "Black / 2X",
+          "sku": "HOT200",
           "price": "76.50"
         },
         {
           "id": 47263423889681,
           "title": "Black / 3X",
+          "sku": "HOT200",
           "price": "80.50"
         },
         {
           "id": 47263495258385,
           "title": "Black / 4X",
+          "sku": "HOT200",
           "price": "84.50"
         }
       ]
@@ -8300,16 +9047,19 @@
         {
           "id": 47263382798609,
           "title": "Black / XL",
+          "sku": "HOT2350",
           "price": "22.00"
         },
         {
           "id": 47263382831377,
           "title": "Black / 2X",
+          "sku": "HOT2350",
           "price": "24.00"
         },
         {
           "id": 47263382864145,
           "title": "Black / 3X",
+          "sku": "HOT2350",
           "price": "25.00"
         }
       ]
@@ -8342,26 +9092,31 @@
         {
           "id": 47172457890065,
           "title": "Black / S",
+          "sku": "HOT2390",
           "price": "36.00"
         },
         {
           "id": 47172457922833,
           "title": "Black / M",
+          "sku": "HOT2390",
           "price": "36.00"
         },
         {
           "id": 47172457955601,
           "title": "Black / L",
+          "sku": "HOT2390",
           "price": "36.00"
         },
         {
           "id": 47172457988369,
           "title": "Black / XL",
+          "sku": "HOT2390",
           "price": "36.00"
         },
         {
           "id": 47172458053905,
           "title": "Black / 3X",
+          "sku": "HOT2390",
           "price": "40.00"
         }
       ]
@@ -8394,31 +9149,37 @@
         {
           "id": 47172410343697,
           "title": "White / S",
+          "sku": "HOT2396",
           "price": "50.00"
         },
         {
           "id": 47172410376465,
           "title": "White / M",
+          "sku": "HOT2396",
           "price": "50.00"
         },
         {
           "id": 47172410409233,
           "title": "White / L",
+          "sku": "HOT2396",
           "price": "50.00"
         },
         {
           "id": 47172410442001,
           "title": "White / XL",
+          "sku": "HOT2396",
           "price": "50.00"
         },
         {
           "id": 47172410507537,
           "title": "White / 2X",
+          "sku": "HOT2396",
           "price": "52.00"
         },
         {
           "id": 47172410540305,
           "title": "White / 3X",
+          "sku": "HOT2396",
           "price": "56.00"
         }
       ]
@@ -8451,31 +9212,37 @@
         {
           "id": 47172294770961,
           "title": "Iron / S",
+          "sku": "HOT2395",
           "price": "50.00"
         },
         {
           "id": 47172294803729,
           "title": "Iron / M",
+          "sku": "HOT2395",
           "price": "50.00"
         },
         {
           "id": 47172294836497,
           "title": "Iron / L",
+          "sku": "HOT2395",
           "price": "50.00"
         },
         {
           "id": 47172294869265,
           "title": "Iron / XL",
+          "sku": "HOT2395",
           "price": "50.00"
         },
         {
           "id": 47172294902033,
           "title": "Iron / 2X",
+          "sku": "HOT2395",
           "price": "52.00"
         },
         {
           "id": 47172294934801,
           "title": "Iron / 3X",
+          "sku": "HOT2395",
           "price": "56.00"
         }
       ]
@@ -8509,31 +9276,37 @@
         {
           "id": 47171764027665,
           "title": "BlHthrBlk / XS",
+          "sku": "HOT1410",
           "price": "20.50"
         },
         {
           "id": 47171764060433,
           "title": "BlHthrBlk / S",
+          "sku": "HOT1410",
           "price": "20.50"
         },
         {
           "id": 47171764093201,
           "title": "BlHthrBlk / M",
+          "sku": "HOT1410",
           "price": "20.50"
         },
         {
           "id": 47171764125969,
           "title": "BlHthrBlk / L",
+          "sku": "HOT1410",
           "price": "20.50"
         },
         {
           "id": 47171764158737,
           "title": "BlHthrBlk / XL",
+          "sku": "HOT1410",
           "price": "20.50"
         },
         {
           "id": 47171764224273,
           "title": "BlHthrBlk / 3X",
+          "sku": "HOT1410",
           "price": "24.20"
         }
       ]
@@ -8565,26 +9338,31 @@
         {
           "id": 47171688759569,
           "title": "DkGryHthr / S",
+          "sku": "AMB001",
           "price": "32.50"
         },
         {
           "id": 47171688792337,
           "title": "DkGryHthr / M",
+          "sku": "AMB001",
           "price": "32.50"
         },
         {
           "id": 47171688825105,
           "title": "DkGryHthr / L",
+          "sku": "AMB001",
           "price": "32.50"
         },
         {
           "id": 47171688857873,
           "title": "DkGryHthr / XL",
+          "sku": "AMB001",
           "price": "32.50"
         },
         {
           "id": 47171688890641,
           "title": "DkGryHthr / 2X",
+          "sku": "AMB001",
           "price": "36.50"
         }
       ]
@@ -8617,31 +9395,37 @@
         {
           "id": 47171624042769,
           "title": "Hthr Char / XS",
+          "sku": "AMB002",
           "price": "22.50"
         },
         {
           "id": 47171624075537,
           "title": "Hthr Char / S",
+          "sku": "AMB002",
           "price": "22.50"
         },
         {
           "id": 47171624108305,
           "title": "Hthr Char / M",
+          "sku": "AMB002",
           "price": "22.50"
         },
         {
           "id": 47171624173841,
           "title": "Hthr Char / L",
+          "sku": "AMB002",
           "price": "22.50"
         },
         {
           "id": 47171624206609,
           "title": "Hthr Char / XL",
+          "sku": "AMB002",
           "price": "22.50"
         },
         {
           "id": 47171624239377,
           "title": "Hthr Char / 2X",
+          "sku": "AMB002",
           "price": "26.50"
         }
       ]
@@ -8673,6 +9457,7 @@
         {
           "id": 47171532292369,
           "title": "Ath Hthr / 2X",
+          "sku": "HOT2315",
           "price": "24.00"
         }
       ]
@@ -8704,26 +9489,31 @@
         {
           "id": 47171416391953,
           "title": "Ash / NB",
+          "sku": "HOT975",
           "price": "23.00"
         },
         {
           "id": 47171416424721,
           "title": "Ash / 6M",
+          "sku": "HOT975",
           "price": "23.00"
         },
         {
           "id": 47171416457489,
           "title": "Ash / 12M",
+          "sku": "HOT975",
           "price": "23.00"
         },
         {
           "id": 47171416490257,
           "title": "Ash / 18M",
+          "sku": "HOT975",
           "price": "23.00"
         },
         {
           "id": 47171486777617,
           "title": "Ash / 24M",
+          "sku": "HOT975",
           "price": "23.00"
         }
       ]
@@ -8757,31 +9547,37 @@
         {
           "id": 47171356590353,
           "title": "Grey Camo / XS",
+          "sku": "HOT1445",
           "price": "46.10"
         },
         {
           "id": 47171356623121,
           "title": "Grey Camo / S",
+          "sku": "HOT1445",
           "price": "46.10"
         },
         {
           "id": 47171356655889,
           "title": "Grey Camo / M",
+          "sku": "HOT1445",
           "price": "46.10"
         },
         {
           "id": 47171356688657,
           "title": "Grey Camo / L",
+          "sku": "HOT1445",
           "price": "46.10"
         },
         {
           "id": 47171356754193,
           "title": "Grey Camo / XL",
+          "sku": "HOT1445",
           "price": "46.10"
         },
         {
           "id": 47171356786961,
           "title": "Grey Camo / 2X",
+          "sku": "HOT1445",
           "price": "48.10"
         }
       ]
@@ -8812,21 +9608,25 @@
         {
           "id": 47171099754769,
           "title": "Orange / YS",
+          "sku": "HOT1456",
           "price": "19.30"
         },
         {
           "id": 47171099820305,
           "title": "Orange / YM",
+          "sku": "HOT1456",
           "price": "19.30"
         },
         {
           "id": 47171099918609,
           "title": "Orange / YL",
+          "sku": "HOT1456",
           "price": "19.30"
         },
         {
           "id": 47171100016913,
           "title": "Orange / YXL",
+          "sku": "HOT1456",
           "price": "19.30"
         }
       ]
@@ -8860,16 +9660,19 @@
         {
           "id": 47170869231889,
           "title": "White / XS",
+          "sku": "HOT2360",
           "price": "17.00"
         },
         {
           "id": 47170869362961,
           "title": "White / XL",
+          "sku": "HOT2360",
           "price": "17.00"
         },
         {
           "id": 47170869395729,
           "title": "White / 2X",
+          "sku": "HOT2360",
           "price": "17.70"
         }
       ]
@@ -8902,31 +9705,37 @@
         {
           "id": 47154392760593,
           "title": "Hthr Russet / XS",
+          "sku": "HOT2405",
           "price": "26.00"
         },
         {
           "id": 47154392793361,
           "title": "Hthr Russet / S",
+          "sku": "HOT2405",
           "price": "26.00"
         },
         {
           "id": 47154392826129,
           "title": "Hthr Russet / M",
+          "sku": "HOT2405",
           "price": "26.00"
         },
         {
           "id": 47154392858897,
           "title": "Hthr Russet / L",
+          "sku": "HOT2405",
           "price": "26.00"
         },
         {
           "id": 47154392891665,
           "title": "Hthr Russet / XL",
+          "sku": "HOT2405",
           "price": "26.00"
         },
         {
           "id": 47154392924433,
           "title": "Hthr Russet / 2X",
+          "sku": "HOT2405",
           "price": "29.00"
         }
       ]
@@ -8959,31 +9768,37 @@
         {
           "id": 47154330370321,
           "title": "Royal Hthr / XS",
+          "sku": "HOT2415",
           "price": "31.70"
         },
         {
           "id": 47154330403089,
           "title": "Royal Hthr / S",
+          "sku": "HOT2415",
           "price": "31.70"
         },
         {
           "id": 47154330435857,
           "title": "Royal Hthr / M",
+          "sku": "HOT2415",
           "price": "31.70"
         },
         {
           "id": 47154330468625,
           "title": "Royal Hthr / L",
+          "sku": "HOT2415",
           "price": "31.70"
         },
         {
           "id": 47154330501393,
           "title": "Royal Hthr / XL",
+          "sku": "HOT2415",
           "price": "31.70"
         },
         {
           "id": 47154330534161,
           "title": "Royal Hthr / 2X",
+          "sku": "HOT2415",
           "price": "33.70"
         }
       ]
@@ -9015,26 +9830,31 @@
         {
           "id": 47154285740305,
           "title": "Ath Hthr / S",
+          "sku": "HOT2410",
           "price": "30.40"
         },
         {
           "id": 47154285773073,
           "title": "Ath Hthr / M",
+          "sku": "HOT2410",
           "price": "30.40"
         },
         {
           "id": 47154285805841,
           "title": "Ath Hthr / L",
+          "sku": "HOT2410",
           "price": "30.40"
         },
         {
           "id": 47154285838609,
           "title": "Ath Hthr / XL",
+          "sku": "HOT2410",
           "price": "30.40"
         },
         {
           "id": 47154285871377,
           "title": "Ath Hthr / 2X",
+          "sku": "HOT2410",
           "price": "33.40"
         }
       ]
@@ -9066,26 +9886,31 @@
         {
           "id": 47154070847761,
           "title": "Hthr Red / S",
+          "sku": "HOT2400",
           "price": "30.40"
         },
         {
           "id": 47154070880529,
           "title": "Hthr Red / M",
+          "sku": "HOT2400",
           "price": "30.40"
         },
         {
           "id": 47154070913297,
           "title": "Hthr Red / L",
+          "sku": "HOT2400",
           "price": "30.40"
         },
         {
           "id": 47154070946065,
           "title": "Hthr Red / XL",
+          "sku": "HOT2400",
           "price": "30.40"
         },
         {
           "id": 47154070978833,
           "title": "Hthr Red / 2X",
+          "sku": "HOT2400",
           "price": "33.40"
         }
       ]
@@ -9117,26 +9942,31 @@
         {
           "id": 47154002559249,
           "title": "Hthr Olive / S",
+          "sku": "HOT353",
           "price": "29.60"
         },
         {
           "id": 47154002592017,
           "title": "Hthr Olive / M",
+          "sku": "HOT353",
           "price": "29.60"
         },
         {
           "id": 47154002624785,
           "title": "Hthr Olive / L",
+          "sku": "HOT353",
           "price": "29.60"
         },
         {
           "id": 47154002657553,
           "title": "Hthr Olive / XL",
+          "sku": "HOT353",
           "price": "29.60"
         },
         {
           "id": 47154002690321,
           "title": "Hthr Olive / 2X",
+          "sku": "HOT353",
           "price": "32.10"
         }
       ]
@@ -9168,11 +9998,13 @@
         {
           "id": 47153982865681,
           "title": "Hthr Mustard / XL",
+          "sku": "HOT352",
           "price": "18.30"
         },
         {
           "id": 47153982898449,
           "title": "Hthr Mustard / 2X",
+          "sku": "HOT352",
           "price": "20.40"
         }
       ]
@@ -9204,26 +10036,31 @@
         {
           "id": 47153953767697,
           "title": "Hthr Mauve / S",
+          "sku": "HOT396",
           "price": "29.60"
         },
         {
           "id": 47153953800465,
           "title": "Hthr Mauve / M",
+          "sku": "HOT396",
           "price": "29.60"
         },
         {
           "id": 47153953866001,
           "title": "Hthr Mauve / L",
+          "sku": "HOT396",
           "price": "29.60"
         },
         {
           "id": 47153953898769,
           "title": "Hthr Mauve / XL",
+          "sku": "HOT396",
           "price": "29.60"
         },
         {
           "id": 47153953931537,
           "title": "Hthr Mauve / 2X",
+          "sku": "HOT396",
           "price": "32.10"
         }
       ]
@@ -9255,26 +10092,31 @@
         {
           "id": 47153891016977,
           "title": "HthrDstyBlue / S",
+          "sku": "HOT1331",
           "price": "30.90"
         },
         {
           "id": 47153891049745,
           "title": "HthrDstyBlue / M",
+          "sku": "HOT1331",
           "price": "30.90"
         },
         {
           "id": 47153891082513,
           "title": "HthrDstyBlue / L",
+          "sku": "HOT1331",
           "price": "30.90"
         },
         {
           "id": 47153891148049,
           "title": "HthrDstyBlue / XL",
+          "sku": "HOT1331",
           "price": "30.90"
         },
         {
           "id": 47153891180817,
           "title": "HthrDstyBlue / 2X",
+          "sku": "HOT1331",
           "price": "32.90"
         }
       ]
@@ -9306,26 +10148,31 @@
         {
           "id": 47153857691921,
           "title": "Ath Hthr / S",
+          "sku": "HOT1365",
           "price": "30.90"
         },
         {
           "id": 47153857757457,
           "title": "Ath Hthr / M",
+          "sku": "HOT1365",
           "price": "30.90"
         },
         {
           "id": 47153857790225,
           "title": "Ath Hthr / L",
+          "sku": "HOT1365",
           "price": "30.90"
         },
         {
           "id": 47153857855761,
           "title": "Ath Hthr / XL",
+          "sku": "HOT1365",
           "price": "30.90"
         },
         {
           "id": 47153857921297,
           "title": "Ath Hthr / 2X",
+          "sku": "HOT1365",
           "price": "32.90"
         }
       ]
@@ -9357,11 +10204,13 @@
         {
           "id": 47153593188625,
           "title": "DkGryHthr / XL",
+          "sku": "HOT1390",
           "price": "18.00"
         },
         {
           "id": 47153593221393,
           "title": "DkGryHthr / 2X",
+          "sku": "HOT1390",
           "price": "20.00"
         }
       ]
@@ -9393,26 +10242,31 @@
         {
           "id": 47153519067409,
           "title": "Black / S",
+          "sku": "HOT1391",
           "price": "29.60"
         },
         {
           "id": 47153519100177,
           "title": "Black / M",
+          "sku": "HOT1391",
           "price": "29.60"
         },
         {
           "id": 47153519132945,
           "title": "Black / L",
+          "sku": "HOT1391",
           "price": "29.60"
         },
         {
           "id": 47153519165713,
           "title": "Black / XL",
+          "sku": "HOT1391",
           "price": "29.60"
         },
         {
           "id": 47153519231249,
           "title": "Black / 2X",
+          "sku": "HOT1391",
           "price": "32.10"
         }
       ]
@@ -9444,6 +10298,7 @@
         {
           "id": 47153243619601,
           "title": "White / 2X",
+          "sku": "HOT311",
           "price": "20.60"
         }
       ]
@@ -9477,36 +10332,43 @@
         {
           "id": 47153106551057,
           "title": "Hthr Red / XS",
+          "sku": "HOT1355",
           "price": "21.40"
         },
         {
           "id": 47153106583825,
           "title": "Hthr Red / S",
+          "sku": "HOT1355",
           "price": "21.40"
         },
         {
           "id": 47153106616593,
           "title": "Hthr Red / M",
+          "sku": "HOT1355",
           "price": "21.40"
         },
         {
           "id": 47153106649361,
           "title": "Hthr Red / L",
+          "sku": "HOT1355",
           "price": "21.40"
         },
         {
           "id": 47153106682129,
           "title": "Hthr Red / XL",
+          "sku": "HOT1355",
           "price": "21.40"
         },
         {
           "id": 47153106714897,
           "title": "Hthr Red / 2X",
+          "sku": "HOT1355",
           "price": "25.40"
         },
         {
           "id": 47153106747665,
           "title": "Hthr Red / 3X",
+          "sku": "HOT1355",
           "price": "26.40"
         }
       ]
@@ -9539,11 +10401,13 @@
         {
           "id": 49002270720273,
           "title": "White / XL",
+          "sku": "HOT1480",
           "price": "14.00"
         },
         {
           "id": 49002270753041,
           "title": "White / 2X",
+          "sku": "HOT1480",
           "price": "16.00"
         }
       ]
@@ -9575,26 +10439,31 @@
         {
           "id": 47066772734225,
           "title": "Stnwsh Grn / S",
+          "sku": "HOT1361",
           "price": "23.50"
         },
         {
           "id": 47066772766993,
           "title": "Stnwsh Grn / M",
+          "sku": "HOT1361",
           "price": "23.50"
         },
         {
           "id": 47066772799761,
           "title": "Stnwsh Grn / L",
+          "sku": "HOT1361",
           "price": "23.50"
         },
         {
           "id": 47066772832529,
           "title": "Stnwsh Grn / XL",
+          "sku": "HOT1361",
           "price": "23.50"
         },
         {
           "id": 47066772865297,
           "title": "Stnwsh Grn / 2X",
+          "sku": "HOT1361",
           "price": "26.00"
         }
       ]
@@ -9626,41 +10495,49 @@
         {
           "id": 47066705592593,
           "title": "White / 72 Piece Pkg",
+          "sku": "HOT535",
           "price": "397.44"
         },
         {
           "id": 47066705625361,
           "title": "White / 144 Piece Pkg",
+          "sku": "HOT535",
           "price": "679.68"
         },
         {
           "id": 47066705658129,
           "title": "White / 288 Piece Pkg",
+          "sku": "HOT535",
           "price": "1238.40"
         },
         {
           "id": 47066705690897,
           "title": "White / 576 Piece Pkg",
+          "sku": "HOT535",
           "price": "2257.92"
         },
         {
           "id": 47066705035537,
           "title": "Orange / 72 Piece Pkg",
+          "sku": "HOT538",
           "price": "397.44"
         },
         {
           "id": 47066705494289,
           "title": "Orange / 144 Piece Pkg",
+          "sku": "HOT538",
           "price": "679.68"
         },
         {
           "id": 47066705527057,
           "title": "Orange / 288 Piece Pkg",
+          "sku": "HOT538",
           "price": "1238.40"
         },
         {
           "id": 47066705559825,
           "title": "Orange / 576 Piece Pkg",
+          "sku": "HOT538",
           "price": "2257.92"
         }
       ]
@@ -9682,6 +10559,7 @@
         {
           "id": 47874849636625,
           "title": "White",
+          "sku": "HOT505",
           "price": "358.00"
         }
       ]
@@ -9714,31 +10592,37 @@
         {
           "id": 47064730108177,
           "title": "Black / S",
+          "sku": "HOT119",
           "price": "106.00"
         },
         {
           "id": 47064730140945,
           "title": "Black / M",
+          "sku": "HOT119",
           "price": "106.00"
         },
         {
           "id": 47064730173713,
           "title": "Black / L",
+          "sku": "HOT119",
           "price": "106.00"
         },
         {
           "id": 47064730206481,
           "title": "Black / XL",
+          "sku": "HOT119",
           "price": "106.00"
         },
         {
           "id": 47064730239249,
           "title": "Black / 2X",
+          "sku": "HOT119",
           "price": "108.00"
         },
         {
           "id": 47064730272017,
           "title": "Black / 3X",
+          "sku": "HOT119",
           "price": "112.00"
         }
       ]
@@ -9772,36 +10656,43 @@
         {
           "id": 46910607950097,
           "title": "Black / XS",
+          "sku": "HOT300",
           "price": "21.40"
         },
         {
           "id": 46910608015633,
           "title": "Black / S",
+          "sku": "HOT300",
           "price": "21.40"
         },
         {
           "id": 46910608048401,
           "title": "Black / M",
+          "sku": "HOT300",
           "price": "21.40"
         },
         {
           "id": 46910608081169,
           "title": "Black / L",
+          "sku": "HOT300",
           "price": "21.40"
         },
         {
           "id": 46910608113937,
           "title": "Black / XL",
+          "sku": "HOT300",
           "price": "21.40"
         },
         {
           "id": 46910608146705,
           "title": "Black / 2X",
+          "sku": "HOT300",
           "price": "25.40"
         },
         {
           "id": 46910608179473,
           "title": "Black / 3X",
+          "sku": "HOT300",
           "price": "26.40"
         }
       ]
@@ -9833,41 +10724,49 @@
         {
           "id": 47837236560145,
           "title": "Black / 25 Piece Pkg",
+          "sku": "HOT525",
           "price": "235.00"
         },
         {
           "id": 47837236592913,
           "title": "Black / 50 Piece Pkg",
+          "sku": "HOT525",
           "price": "420.00"
         },
         {
           "id": 47837236625681,
           "title": "Black / 100 Piece Pkg",
+          "sku": "HOT525",
           "price": "670.00"
         },
         {
           "id": 48045764968721,
           "title": "Black / 300 Piece Pkg",
+          "sku": "HOT525",
           "price": "1680.00"
         },
         {
           "id": 47837236658449,
           "title": "Orange / 25 Piece Pkg",
+          "sku": "HOT526",
           "price": "235.00"
         },
         {
           "id": 47837236691217,
           "title": "Orange / 50 Piece Pkg",
+          "sku": "HOT526",
           "price": "420.00"
         },
         {
           "id": 47837236723985,
           "title": "Orange / 100 Piece Pkg",
+          "sku": "HOT526",
           "price": "670.00"
         },
         {
           "id": 48045765001489,
           "title": "Orange / 300 Piece Pkg",
+          "sku": "HOT526",
           "price": "1680.00"
         }
       ]
@@ -9900,16 +10799,19 @@
         {
           "id": 46886462062865,
           "title": "Lt Grey / XS",
+          "sku": "HOT1316",
           "price": "20.90"
         },
         {
           "id": 46886462456081,
           "title": "Lt Grey / XL",
+          "sku": "HOT1316",
           "price": "20.90"
         },
         {
           "id": 46886462488849,
           "title": "Lt Grey / 2X",
+          "sku": "HOT1316",
           "price": "22.30"
         }
       ]
