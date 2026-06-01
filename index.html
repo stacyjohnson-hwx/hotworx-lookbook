@@ -229,7 +229,7 @@ const CATS = ['All','Apparel','Tanks','Shorts','Hoodies & Sweatshirts','Joggers'
 // ─── FETCH CATALOG ────────────────────────
 async function loadCatalog() {
   try {
-    const res = await fetch('/api/products');
+    const res = await fetch('/catalog.json');
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
     catalog = data.products || [];
