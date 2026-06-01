@@ -229,7 +229,7 @@ const CATS = ['All','Apparel','Tanks','Shorts','Hoodies & Sweatshirts','Joggers'
 // ─── FETCH CATALOG ────────────────────────
 async function loadCatalog() {
   try {
-    const res = await fetch('/catalog.json');
+    const res = await fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vSkIbKEazpvu-0TDnxI-md5gM0zGmtnZLbDFpXGZTQxSMr4A7Ga7SZRggaEM2cRrHegRnna_bLFN3TO/pub?gid=258574880&single=true&output=csv');
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
     catalog = data.products || [];
