@@ -415,8 +415,24 @@ function pickOpt(btn) {
 
   const p = selProduct;
   selVariant = null;
-  if (Object.keys(sels).length === p.options.length) {
-    selVariant = p.variants.find(v => p.options.every(o => v.title.includes(sels[o.name])));
+
+  // Size drives the variant; Color is display-only from the sheet
+  const selectedSize = sels['Size'];
+  const selectedColor = sels['Color'];
+  const hasSize = p.options.some(o => o.name === 'Size');
+  const hasColor = p.options.some(o => o.name === 'Color');
+  const sizeReady = !hasSize || selectedSize;
+  const colorReady = !hasColor || selectedColor;
+
+  if (sizeReady && colorReady) {
+    // Match variant by size title (color isn't encoded in variant titles)
+    selVariant = selectedSize
+      ? p.variants.find(v => v.title === selectedSize) || p.variants[0]
+      : p.variants[0];
+    // Append color to variant label for cart display
+    if (selVariant && selectedColor) {
+      selVariant = { ...selVariant, displayTitle: selectedSize ? `${selectedSize} / ${selectedColor}` : selectedColor };
+    }
   }
 
   if (selVariant) {
@@ -446,7 +462,7 @@ function addToCart() {
   if (!selProduct || !selVariant) return;
   const existing = cart.find(i => i.vid === selVariant.id);
   if (existing) existing.qty++;
-  else cart.push({ vid: selVariant.id, title: selProduct.title, variant: selVariant.title, price: parseFloat(selVariant.price), img: selProduct.image, qty: 1 });
+  else cart.push({ vid: selVariant.id, title: selProduct.title, variant: selVariant.displayTitle || selVariant.title, price: parseFloat(selVariant.price), img: selProduct.image, qty: 1 });
   updateBadge();
   closeSheet({ target: document.getElementById('overlay') });
   const btn = document.getElementById('addBtn');
