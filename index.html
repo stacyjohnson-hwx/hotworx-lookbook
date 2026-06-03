@@ -379,59 +379,73 @@ function openProduct(idx) {
 function renderOpts() {
   const p = selProduct;
   const opts = p.options || [];
+  const colorOpt = opts.find(o => o.name === 'Color');
+  const sizeOpt  = opts.find(o => o.name === 'Size');
 
-  // Auto-select if only one variant
-  if (p.variants.length === 1) {
+  // If no sizes (only color, or nothing), auto-enable
+  if (!sizeOpt) {
     selVariant = p.variants[0];
-    document.getElementById('sPrice').textContent = '$' + parseFloat(selVariant.price).toFixed(2);
     document.getElementById('sOpts').innerHTML = '';
     setAddBtn(true);
     return;
   }
 
-  document.getElementById('sOpts').innerHTML = opts.map(opt => `
+  // Render size buttons only; color is shown as info (auto-selected below)
+  document.getElementById('sOpts').innerHTML = `
     <div class="opt-section">
-      <div class="opt-label">${esc(opt.name)}</div>
+      <div class="opt-label">SIZE</div>
       <div class="opt-row">
-        ${opt.values.map(val => {
-          // Sizes are encoded in variant titles; colors come from the sheet as display-only
-          const avail = opt.name === 'Color' ? true : p.variants.some(v => v.title.includes(val));
-          return `<button class="opt-btn${avail?'':' oos'}"
-            data-opt="${esc(opt.name)}" data-val="${esc(val)}"
-            onclick="${avail?'pickOpt(this)':''}">
-            ${esc(val)}</button>`;
-        }).join('')}
+        ${sizeOpt.values.map(val => `
+          <button class="opt-btn" data-opt="Size" data-val="${esc(val)}" onclick="pickSize(this)">
+            ${esc(val)}
+          </button>`).join('')}
       </div>
-    </div>`).join('');
+    </div>
+    ${colorOpt ? `<div class="opt-section">
+      <div class="opt-label">COLOR</div>
+      <div style="font-size:14px;font-weight:600;color:var(--text);padding:4px 0">${esc(colorOpt.values[0])}</div>
+    </div>` : ''}`;
+
   setAddBtn(false);
 }
 
-function pickOpt(btn) {
+function pickSize(btn) {
   btn.closest('.opt-row').querySelectorAll('.opt-btn').forEach(b => b.classList.remove('sel'));
   btn.classList.add('sel');
 
+  const p = selProduct;
+  const selectedSize = btn.dataset.val;
+  const colorOpt = (p.options || []).find(o => o.name === 'Color');
+  const selectedColor = colorOpt ? colorOpt.values[0] : null;
+
+  selVariant = p.variants.find(v => v.title === selectedSize) || p.variants[0];
+  if (selVariant && selectedColor) {
+    selVariant = { ...selVariant, displayTitle: `${selectedSize} / ${selectedColor}` };
+  } else if (selVariant) {
+    selVariant = { ...selVariant, displayTitle: selectedSize };
+  }
+
+  if (selVariant) {
+    document.getElementById('sPrice').textContent = '$' + parseFloat(selVariant.price).toFixed(2);
+    setAddBtn(true);
+  } else {
+    setAddBtn(false);
+  }
+}
+
+// Keep pickOpt for any edge cases but it now just delegates
+function pickOpt(btn) {
+  pickSize(btn);
   const sels = {};
   document.querySelectorAll('.opt-btn.sel').forEach(b => { sels[b.dataset.opt] = b.dataset.val; });
-
   const p = selProduct;
   selVariant = null;
-
-  // Size drives the variant; Color is display-only from the sheet
   const selectedSize = sels['Size'];
   const selectedColor = sels['Color'];
-  const hasSize = p.options.some(o => o.name === 'Size');
-  const hasColor = p.options.some(o => o.name === 'Color');
-  const sizeReady = !hasSize || selectedSize;
-  const colorReady = !hasColor || selectedColor;
-
-  if (sizeReady && colorReady) {
-    // Match variant by size title (color isn't encoded in variant titles)
-    selVariant = selectedSize
-      ? p.variants.find(v => v.title === selectedSize) || p.variants[0]
-      : p.variants[0];
-    // Append color to variant label for cart display
-    if (selVariant && selectedColor) {
-      selVariant = { ...selVariant, displayTitle: selectedSize ? `${selectedSize} / ${selectedColor}` : selectedColor };
+  if (selectedSize) {
+    selVariant = p.variants.find(v => v.title === selectedSize) || p.variants[0];
+    if (selVariant) {
+      selVariant = { ...selVariant, displayTitle: selectedColor ? `${selectedSize} / ${selectedColor}` : selectedSize };
     }
   }
 
