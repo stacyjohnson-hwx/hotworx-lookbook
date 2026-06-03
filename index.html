@@ -52,8 +52,10 @@ img{display:block;}
 .overlay.open{display:flex;}
 .sheet{background:#fff;border-radius:22px 22px 0 0;width:100%;max-height:92vh;overflow-y:auto;padding:0 0 40px;}
 .sheet-handle{width:44px;height:5px;background:#ddd;border-radius:3px;margin:14px auto 0;}
-.sheet-img{width:100%;max-height:280px;object-fit:cover;background:#f0f0f0;}
-.sheet-body{padding:18px 16px 0;}
+.sheet-header{display:flex;align-items:center;justify-content:space-between;padding:14px 16px 0;}
+.sheet-close{background:var(--gray);border:none;border-radius:50%;width:34px;height:34px;font-size:20px;line-height:1;cursor:pointer;color:#555;display:flex;align-items:center;justify-content:center;}
+.sheet-img{width:100%;max-height:320px;object-fit:contain;background:#f5f5f5;padding:10px;}
+.sheet-body{padding:14px 16px 0;}
 .sheet-title{font-size:19px;font-weight:800;line-height:1.3;margin-bottom:4px;}
 .sheet-price{font-size:24px;color:var(--orange);font-weight:800;margin-bottom:18px;}
 .opt-section{margin-bottom:16px;}
@@ -152,7 +154,10 @@ img{display:block;}
 <!-- PRODUCT DETAIL SHEET -->
 <div class="overlay" id="overlay" onclick="closeSheet(event)">
   <div class="sheet" id="sheet">
-    <div class="sheet-handle"></div>
+    <div class="sheet-header">
+      <div class="sheet-handle" style="margin:0;"></div>
+      <button class="sheet-close" onclick="closeSheet(event)">✕</button>
+    </div>
     <img class="sheet-img" id="sImg" src="" alt="">
     <div class="sheet-body">
       <div class="sheet-title" id="sTitle"></div>
@@ -426,8 +431,10 @@ function setAddBtn(enabled) {
 }
 
 function closeSheet(e) {
-  if (e && e.target !== document.getElementById('overlay')) return;
-  document.getElementById('overlay').classList.remove('open');
+  const overlay = document.getElementById('overlay');
+  // Close if clicking the dark backdrop OR the ✕ button
+  if (e && e.target !== overlay && !e.target.classList.contains('sheet-close')) return;
+  overlay.classList.remove('open');
   document.body.style.overflow = '';
 }
 
