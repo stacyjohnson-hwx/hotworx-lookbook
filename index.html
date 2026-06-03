@@ -226,16 +226,57 @@ let selVariant = null;
 let filter = 'All';
 const CATS = ['All','Apparel','Tanks','Shorts','Hoodies & Sweatshirts','Joggers','Accessories','Bags & Packs','Sale / Closeout'];
 
+// ─── CSV PARSER ───────────────────────────
+function parseCSV(text) {
+  const lines = text.trim().split('\n');
+  const headers = lines[0].split(',').map(h => h.trim().replace(/^"|"$/g, ''));
+  return lines.slice(1).map(line => {
+    const cols = [];
+    let cur = '', inQ = false;
+    for (let i = 0; i < line.length; i++) {
+      const ch = line[i];
+      if (ch === '"') { inQ = !inQ; }
+      else if (ch === ',' && !inQ) { cols.push(cur.trim()); cur = ''; }
+      else { cur += ch; }
+    }
+    cols.push(cur.trim());
+    const obj = {};
+    headers.forEach((h, i) => obj[h] = (cols[i] || '').replace(/^"|"$/g, '').trim());
+    return obj;
+  });
+}
+
 // ─── FETCH CATALOG ────────────────────────
 async function loadCatalog() {
   try {
     const res = await fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vSkIbKEazpvu-0TDnxI-md5gM0zGmtnZLbDFpXGZTQxSMr4A7Ga7SZRggaEM2cRrHegRnna_bLFN3TO/pub?gid=258574880&single=true&output=csv');
     if (!res.ok) throw new Error('HTTP ' + res.status);
-    const data = await res.json();
-    catalog = data.products || [];
+    const text = await res.text();
+    const rows = parseCSV(text);
+    catalog = rows
+      .filter(r => r['Show'] && r['Show'].toUpperCase() === 'TRUE')
+      .map(r => {
+        const price = parseFloat((r['Price'] || '0').replace(/[^0-9.]/g, '')) || 0;
+        const sizes = (r['Sizes'] || '').split(',').map(s => s.trim()).filter(Boolean);
+        const colors = (r['Colors'] || '').split(',').map(s => s.trim()).filter(Boolean);
+        const opts = [];
+        if (sizes.length) opts.push({ name: 'Size', values: sizes });
+        if (colors.length) opts.push({ name: 'Color', values: colors });
+        return {
+          title: r['Name'] || '',
+          handle: (r['SKU'] || '').toLowerCase(),
+          image: r['Image URL'] || '',
+          images: [r['Image URL'] || ''],
+          category: r['Category'] || '',
+          price_min: price.toFixed(2),
+          options: opts,
+          variants: [{ id: r['SKU'], title: sizes[0] || 'One Size', price: price.toFixed(2) }],
+        };
+      });
     renderChips();
     render();
   } catch (e) {
+    console.error('loadCatalog error:', e);
     document.getElementById('grid').innerHTML =
       '<div class="empty"><div class="empty-icon">⚠️</div><div>Could not load products.<br>Please try again.</div></div>';
   }
