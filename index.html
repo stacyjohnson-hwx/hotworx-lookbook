@@ -350,7 +350,7 @@ function render() {
       <div class="card-body">
         ${isSale?'<span class="sale-badge">Sale</span>':''}
         <div class="card-title">${esc(p.title)}</div>
-        <div class="card-price">From $${price}</div>
+        <div class="card-price">$${price}</div>
       </div>
     </div>`;
   }).join('');
@@ -362,7 +362,7 @@ function openProduct(idx) {
   selVariant = null;
   document.getElementById('sImg').src = selProduct.image || '';
   document.getElementById('sTitle').textContent = selProduct.title;
-  document.getElementById('sPrice').textContent = 'From $' + parseFloat(selProduct.price_min).toFixed(2);
+  document.getElementById('sPrice').textContent = '$' + parseFloat(selProduct.price_min).toFixed(2);
   renderOpts();
   document.getElementById('overlay').classList.add('open');
   document.body.style.overflow = 'hidden';
