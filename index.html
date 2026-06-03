@@ -386,7 +386,8 @@ function renderOpts() {
       <div class="opt-label">${esc(opt.name)}</div>
       <div class="opt-row">
         ${opt.values.map(val => {
-          const avail = p.variants.some(v => v.title.includes(val));
+          // Sizes are encoded in variant titles; colors come from the sheet as display-only
+          const avail = opt.name === 'Color' ? true : p.variants.some(v => v.title.includes(val));
           return `<button class="opt-btn${avail?'':' oos'}"
             data-opt="${esc(opt.name)}" data-val="${esc(val)}"
             onclick="${avail?'pickOpt(this)':''}">
