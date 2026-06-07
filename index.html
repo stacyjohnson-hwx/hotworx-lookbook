@@ -65,6 +65,16 @@ img{display:block;}
 .inspo p{font-size:14px;color:rgba(255,255,255,.85);margin-bottom:24px;max-width:280px;margin-left:auto;margin-right:auto;}
 .inspo-btn{background:#fff;color:var(--orange);border:none;border-radius:50px;padding:14px 32px;font-size:15px;font-weight:800;cursor:pointer;}
 
+/* Category cards */
+.cat-card{border:none;background:none;padding:0;cursor:pointer;border-radius:14px;overflow:hidden;position:relative;width:100%;aspect-ratio:1;display:block;}
+.cat-card img{width:100%;height:100%;object-fit:cover;transition:transform .3s;}
+.cat-card:active img{transform:scale(1.04);}
+.cat-label{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,.7),transparent);color:#fff;font-size:15px;font-weight:800;padding:20px 14px 12px;text-align:left;letter-spacing:.3px;}
+
+/* Shop header back button */
+.back-to-home{background:none;border:none;color:rgba(255,255,255,.8);font-size:13px;font-weight:600;cursor:pointer;display:flex;align-items:center;gap:4px;padding:0;letter-spacing:.3px;}
+.back-to-home:hover{color:#fff;}
+
 /* Shop view transitions */
 #shop{animation:fadeIn .3s ease;}
 @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
@@ -189,7 +199,6 @@ img{display:block;}
 
   <!-- HERO -->
   <section class="hero">
-    <!-- Background mosaic of model photos -->
     <div class="hero-mosaic">
       <img src="https://cdn.shopify.com/s/files/1/0802/8730/1905/files/br2101-am-app-rib-tank-smokey-violet-tonal-emb-flame-model_copy-med.jpg" alt="">
       <img src="https://cdn.shopify.com/s/files/1/0802/8730/1905/files/3592-LAT-peachy-curved-wording-flame-model_copy-med.jpg" alt="">
@@ -198,19 +207,12 @@ img{display:block;}
     <div class="hero-overlay"></div>
 
     <div class="hero-content">
-      <!-- Logo -->
       <div class="hero-logo-wrap">
-        <svg class="hero-flame" viewBox="0 0 40 48" xmlns="http://www.w3.org/2000/svg">
-          <path d="M20 2C16 10 8 14 8 24c0 6.6 5.4 12 12 12s12-5.4 12-12c0-4-2-8-4-10-1 3-3 6-6 7 2-4 2-9 0-14-1 3-3 5-5 7 3-4 3-8 3-12z" fill="#E85D25"/>
-          <ellipse cx="20" cy="33" rx="5" ry="7" fill="#fff" opacity=".7"/>
-        </svg>
-        <div class="hero-brand">HOT<span>WORX</span></div>
-        <div class="hero-tagline">Infrared · Isometrics · Results</div>
+        <img src="hotworx-logo.png" alt="HOTWORX" style="width:160px;margin:0 auto 20px;filter:brightness(0) invert(1);">
       </div>
-
-      <h1 class="hero-headline">Train Hot.<br><em>Dress Hotter.</em></h1>
-      <p class="hero-sub">Official HOTWORX gear designed for the heat — built for athletes who go all in.</p>
-      <button class="hero-cta" onclick="enterShop()">Shop the Collection &rarr;</button>
+      <h1 class="hero-headline">Glow from<br>the <em>Inside Out.</em></h1>
+      <p class="hero-sub">Feel amazing in the sauna — and stunning everywhere else. Curated styles made for women who invest in themselves.</p>
+      <button class="hero-cta" onclick="enterShop('All')">Shop the Collection &rarr;</button>
     </div>
 
     <div class="hero-scroll">
@@ -221,42 +223,67 @@ img{display:block;}
 
   <!-- WHY STRIP -->
   <div class="why-strip">
-    <div class="why-item"><div class="why-icon">🔥</div><div class="why-label">Built for Infrared</div></div>
-    <div class="why-item"><div class="why-icon">👕</div><div class="why-label">Exclusive Styles</div></div>
-    <div class="why-item"><div class="why-icon">💪</div><div class="why-label">Member Pricing</div></div>
+    <div class="why-item"><div class="why-icon">✨</div><div class="why-label">Look & Feel Great</div></div>
+    <div class="why-item"><div class="why-icon">🌡️</div><div class="why-label">Infrared-Friendly</div></div>
+    <div class="why-item"><div class="why-icon">💅</div><div class="why-label">Exclusive Styles</div></div>
     <div class="why-item"><div class="why-icon">📦</div><div class="why-label">Fast Shipping</div></div>
   </div>
 
-  <!-- FEATURED GEAR -->
+  <!-- SHOP BY CATEGORY -->
+  <section class="featured" style="background:#f9f9f9;padding-bottom:36px;">
+    <div class="featured-hd">
+      <h2>Shop by Style</h2>
+      <p>Find exactly what you're looking for</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:0;">
+      <button class="cat-card" onclick="enterShop('Tanks')">
+        <img src="https://cdn.shopify.com/s/files/1/0802/8730/1905/files/br2101-am-app-rib-tank-smokey-violet-tonal-emb-flame-model_copy-med.jpg" alt="Tanks">
+        <div class="cat-label">Tanks</div>
+      </button>
+      <button class="cat-card" onclick="enterShop('Hoodies & Sweatshirts')">
+        <img src="https://cdn.shopify.com/s/files/1/0802/8730/1905/files/3592-LAT-peachy-curved-wording-flame-model_copy-med.jpg" alt="Hoodies">
+        <div class="cat-label">Hoodies</div>
+      </button>
+      <button class="cat-card" onclick="enterShop('Shorts')">
+        <img src="https://cdn.shopify.com/s/files/1/0802/8730/1905/files/tr72-mens-tee-red-white-flame-cc-model_copy-med.jpg" alt="Shorts">
+        <div class="cat-label">Shorts</div>
+      </button>
+      <button class="cat-card" onclick="enterShop('Accessories')">
+        <img src="https://cdn.shopify.com/s/files/1/0802/8730/1905/files/6110-bc-hvywt-tee-vint-red-script-more-wkt-ls-time-model_copy-med.jpg" alt="Accessories">
+        <div class="cat-label">Accessories</div>
+      </button>
+    </div>
+  </section>
+
+  <!-- FEATURED PICKS -->
   <section class="featured">
     <div class="featured-hd">
-      <h2>Featured Gear</h2>
-      <p>Hand-picked styles for your best session yet</p>
+      <h2>Our Picks for You</h2>
+      <p>Styles Eileen is loving right now</p>
     </div>
-    <div class="featured-grid" id="featuredGrid">
-      <!-- Hardcoded featured items using permanent Shopify CDN images -->
-      <div class="feat-card" onclick="enterShop()">
+    <div class="featured-grid">
+      <div class="feat-card" onclick="enterShop('Tanks')">
         <img class="feat-card-img" src="https://cdn.shopify.com/s/files/1/0802/8730/1905/files/br2101-am-app-rib-tank-smokey-violet-tonal-emb-flame-model_copy-med.jpg" alt="Ladies Flame Ribbed Tank">
         <div class="feat-card-body">
           <div class="feat-card-title">Ladies Flame Ribbed Tank</div>
           <div class="feat-card-price">$40.40</div>
         </div>
       </div>
-      <div class="feat-card" onclick="enterShop()">
+      <div class="feat-card" onclick="enterShop('Tanks')">
         <img class="feat-card-img" src="https://cdn.shopify.com/s/files/1/0802/8730/1905/files/3592-LAT-peachy-curved-wording-flame-model_copy-med.jpg" alt="Ladies Flame Relaxed Tank">
         <div class="feat-card-body">
           <div class="feat-card-title">Ladies Flame Relaxed Tank</div>
           <div class="feat-card-price">$29.60</div>
         </div>
       </div>
-      <div class="feat-card" onclick="enterShop()">
+      <div class="feat-card" onclick="enterShop('Apparel')">
         <img class="feat-card-img" src="https://cdn.shopify.com/s/files/1/0802/8730/1905/files/tr72-mens-tee-red-white-flame-cc-model_copy-med.jpg" alt="Flame Tri-Blend Tee">
         <div class="feat-card-body">
           <div class="feat-card-title">Flame Tri-Blend Tee</div>
           <div class="feat-card-price">$30.90</div>
         </div>
       </div>
-      <div class="feat-card" onclick="enterShop()">
+      <div class="feat-card" onclick="enterShop('Apparel')">
         <img class="feat-card-img" src="https://cdn.shopify.com/s/files/1/0802/8730/1905/files/6110-bc-hvywt-tee-vint-red-script-more-wkt-ls-time-model_copy-med.jpg" alt="More Workout Ladies Tee">
         <div class="feat-card-body">
           <div class="feat-card-title">More Workout Ladies Tee</div>
@@ -264,14 +291,14 @@ img{display:block;}
         </div>
       </div>
     </div>
-    <button class="shop-all-btn" onclick="enterShop()">View All Products →</button>
+    <button class="shop-all-btn" onclick="enterShop('All')">View Everything →</button>
   </section>
 
-  <!-- ORANGE CTA BAND -->
+  <!-- CTA BAND -->
   <div class="inspo">
-    <h3>Ready to look as good<br>as you feel?</h3>
-    <p>Designed exclusively for HOTWORX members who demand more from their workout — and their wardrobe.</p>
-    <button class="inspo-btn" onclick="enterShop()">Shop Now</button>
+    <h3>Because you deserve to feel<br>as good as you look.</h3>
+    <p>Thoughtfully designed for women who show up for themselves — in the studio and beyond.</p>
+    <button class="inspo-btn" onclick="enterShop('All')">Start Shopping</button>
   </div>
 
 </div><!-- /landing -->
@@ -283,12 +310,9 @@ img{display:block;}
 
 <!-- HEADER -->
 <div class="header">
-  <div class="logo">
-    <svg class="logo-flame" viewBox="0 0 40 48" xmlns="http://www.w3.org/2000/svg">
-      <path d="M20 2C16 10 8 14 8 24c0 6.6 5.4 12 12 12s12-5.4 12-12c0-4-2-8-4-10-1 3-3 6-6 7 2-4 2-9 0-14-1 3-3 5-5 7 3-4 3-8 3-12z" fill="#E85D25"/>
-      <ellipse cx="20" cy="33" rx="5" ry="7" fill="#fff" opacity=".7"/>
-    </svg>
-    <span class="logo-text">HOT<span>WORX</span></span>
+  <div class="logo" style="flex-direction:column;align-items:flex-start;gap:2px;">
+    <button class="back-to-home" onclick="goHome()">← Back</button>
+    <img src="hotworx-logo.png" alt="HOTWORX" style="height:28px;filter:brightness(0) invert(1);">
   </div>
   <button class="cart-btn" onclick="showCart()">
     🛍️ Cart <span class="badge" id="badge">0</span>
@@ -387,12 +411,25 @@ img{display:block;}
 
 <script>
 // ─── LANDING / SHOP TOGGLE ────────────────
-function enterShop() {
+function enterShop(category) {
   document.getElementById('landing').style.display = 'none';
   document.getElementById('shop').style.display = 'block';
   window.scrollTo(0, 0);
-  // Load catalog now if not already loaded
-  if (!catalog.length) loadCatalog();
+  if (category && category !== filter) {
+    filter = category;
+  }
+  if (!catalog.length) {
+    loadCatalog(); // renders after load
+  } else {
+    renderChips();
+    render();
+  }
+}
+
+function goHome() {
+  document.getElementById('shop').style.display = 'none';
+  document.getElementById('landing').style.display = 'block';
+  window.scrollTo(0, 0);
 }
 
 // ─── STATE ────────────────────────────────
