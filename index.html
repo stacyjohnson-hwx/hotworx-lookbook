@@ -547,6 +547,10 @@ function render() {
     const matchQ = !q || p.title.toLowerCase().includes(q);
     const matchC = catMatch(p, filter);
     return matchQ && matchC;
+  }).sort((a, b) => {
+    const aClose = /closeout/i.test(a.title) ? 1 : 0;
+    const bClose = /closeout/i.test(b.title) ? 1 : 0;
+    return aClose - bClose;
   });
 
   if (!items.length) {
