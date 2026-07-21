@@ -4,11 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <title>HOTWORX Gear & Apparel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
 :root{--orange:#E85D25;--dark:#111;--gray:#f5f5f5;--border:#e5e5e5;--text:#1a1a1a;}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#fff;color:var(--text);min-height:100vh;overscroll-behavior:none;}
+body{font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#fff;color:var(--text);min-height:100vh;overscroll-behavior:none;}
 img{display:block;}
+/* Editorial display font for headlines */
+.hero-headline,.featured-hd h2,.inspo h3,.conf-title,.sheet-title{font-family:'Fraunces','Playfair Display',Georgia,serif;letter-spacing:-.5px;}
 
 /* ─── LANDING PAGE ───────────────────────── */
 #landing{display:block;}
@@ -47,8 +52,9 @@ img{display:block;}
 .featured-hd{text-align:center;margin-bottom:32px;}
 .featured-hd h2{font-size:28px;font-weight:900;color:var(--dark);margin-bottom:8px;}
 .featured-hd p{font-size:15px;color:#777;max-width:300px;margin:0 auto;}
-.featured-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-bottom:32px;}
-@media(min-width:600px){.featured-grid{grid-template-columns:repeat(3,1fr);}}
+.featured-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:0 auto 32px;max-width:1100px;}
+@media(min-width:640px){.featured-grid{grid-template-columns:repeat(4,1fr);}}
+.featured-hd{max-width:1100px;margin-left:auto;margin-right:auto;}
 .feat-card{border-radius:16px;overflow:hidden;cursor:pointer;background:#f5f5f5;position:relative;box-shadow:0 2px 12px rgba(0,0,0,.08);transition:transform .15s;}
 .feat-card:active{transform:scale(.97);}
 .feat-card-img{width:100%;aspect-ratio:4/5;object-fit:cover;}
@@ -70,6 +76,7 @@ img{display:block;}
 .cat-card img{width:100%;height:100%;object-fit:cover;transition:transform .3s;}
 .cat-card:active img{transform:scale(1.04);}
 .cat-label{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,.7),transparent);color:#fff;font-size:15px;font-weight:800;padding:20px 14px 12px;text-align:left;letter-spacing:.3px;}
+@media(min-width:640px){.cat-grid{grid-template-columns:repeat(4,1fr)!important;}}
 
 /* Shop header back button */
 .back-to-home{background:none;border:none;color:rgba(255,255,255,.8);font-size:13px;font-weight:600;cursor:pointer;display:flex;align-items:center;gap:4px;padding:0;letter-spacing:.3px;}
@@ -80,7 +87,7 @@ img{display:block;}
 @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 
 /* ─── HEADER ─────────────────────────────── */
-.header{background:var(--dark);color:#fff;padding:12px 16px;position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;box-shadow:0 2px 8px rgba(0,0,0,.4);}
+.header{background:var(--dark);color:#fff;padding:10px 20px;position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;box-shadow:0 2px 8px rgba(0,0,0,.4);}
 .logo{display:flex;align-items:center;gap:10px;}
 .logo-flame{width:32px;height:32px;}
 .logo-text{font-size:18px;font-weight:900;letter-spacing:-.5px;color:#fff;}
@@ -90,17 +97,20 @@ img{display:block;}
 .badge{background:#fff;color:var(--orange);border-radius:50%;width:20px;height:20px;font-size:11px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;}
 
 /* ─── SEARCH + FILTERS ───────────────────── */
-.sticky-bar{position:sticky;top:56px;z-index:99;background:#fff;border-bottom:1px solid var(--border);}
-.search-wrap{padding:10px 14px;}
+.sticky-bar{position:sticky;top:66px;z-index:99;background:#fff;border-bottom:1px solid var(--border);}
+.search-wrap{padding:10px 16px;max-width:1240px;margin:0 auto;}
 .search-input{width:100%;padding:10px 16px;border:2px solid var(--border);border-radius:24px;font-size:15px;outline:none;background:#fafafa;transition:border-color .15s;}
 .search-input:focus{border-color:var(--orange);background:#fff;}
-.chips{display:flex;gap:8px;overflow-x:auto;padding:0 14px 10px;scrollbar-width:none;}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:0 16px 10px;scrollbar-width:none;max-width:1240px;margin:0 auto;}
 .chips::-webkit-scrollbar{display:none;}
 .chip{white-space:nowrap;padding:6px 14px;border-radius:20px;border:1.5px solid var(--border);background:#fff;font-size:13px;font-weight:500;cursor:pointer;flex-shrink:0;transition:all .15s;}
 .chip.active{background:var(--orange);color:#fff;border-color:var(--orange);}
 
 /* ─── PRODUCT GRID ───────────────────────── */
-.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;padding:12px 12px 100px;}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;padding:16px 16px 100px;max-width:1240px;margin:0 auto;}
+@media(min-width:640px){.grid{grid-template-columns:repeat(3,1fr);gap:20px;}}
+@media(min-width:960px){.grid{grid-template-columns:repeat(4,1fr);}}
+@media(min-width:1200px){.grid{grid-template-columns:repeat(5,1fr);}}
 .card{border-radius:14px;overflow:hidden;border:1px solid var(--border);cursor:pointer;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.06);transition:transform .15s,box-shadow .15s;-webkit-user-select:none;}
 .card:active{transform:scale(.97);box-shadow:none;}
 .card-img{width:100%;aspect-ratio:1;object-fit:cover;background:#f0f0f0;}
@@ -235,7 +245,7 @@ img{display:block;}
       <h2>Shop by Style</h2>
       <p>Find exactly what you're looking for</p>
     </div>
-    <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:0;">
+    <div class="cat-grid" style="display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:0 auto;max-width:1100px;">
       <button class="cat-card" onclick="enterShop('Tanks')">
         <img src="https://cdn.shopify.com/s/files/1/0802/8730/1905/files/br2101-am-app-rib-tank-smokey-violet-tonal-emb-flame-model_copy-med.jpg" alt="Tanks">
         <div class="cat-label">Tanks</div>
@@ -310,9 +320,9 @@ img{display:block;}
 
 <!-- HEADER -->
 <div class="header">
-  <div class="logo" style="flex-direction:column;align-items:flex-start;gap:2px;">
+  <div class="logo" style="gap:16px;">
     <button class="back-to-home" onclick="goHome()">← Back</button>
-    <img src="hotworx-logo.png" alt="HOTWORX" style="height:28px;filter:brightness(0) invert(1);">
+    <img src="hotworx-logo.png" alt="HOTWORX" style="height:46px;filter:brightness(0) invert(1);">
   </div>
   <button class="cart-btn" onclick="showCart()">
     🛍️ Cart <span class="badge" id="badge">0</span>
