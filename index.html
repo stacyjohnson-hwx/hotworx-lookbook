@@ -467,7 +467,7 @@ let cart = [];
 let selProduct = null;
 let selVariant = null;
 let filter = 'All';
-const CATS = ['All','Apparel','Tanks','Shorts','Hoodies & Sweatshirts','Joggers','Sale / Closeout'];
+const CATS = ['All','Apparel','Tanks','Tees','Shorts','Hoodies & Sweatshirts','Joggers','Sale / Closeout'];
 
 // ─── CSV PARSER ───────────────────────────
 function parseCSV(text) {
@@ -538,8 +538,9 @@ function catMatch(p, c) {
   if (c === 'All') return true;
   if (c === 'Apparel') return /tank|tee|shirt|hoodie|sweat|jogger|short|crop|zip|pullover|jacket|legging|pant|top|ribbed|fleece/.test(t);
   if (c === 'Tanks') return /tank/.test(t);
+  if (c === 'Tees') return /\btees?\b|\bt-?shirts?\b|v-?neck|jersey/.test(t);
   if (c === 'Shorts') return /short/.test(t);
-  if (c === 'Hoodies & Sweatshirts') return /hoodie|sweat|fleece|zip|pullover/.test(t);
+  if (c === 'Hoodies & Sweatshirts') return /hoodie|sweatshirt|fleece|zip|pullover|crewneck/.test(t);
   if (c === 'Joggers') return /jogger|pant|legging/.test(t);
   if (c === 'Accessories') return /cap|hat|bottle|towel|band|magnet|lanyard|key|sticker|mug|tumbler|headband|sock/.test(t);
   if (c === 'Bags & Packs') return /bag|backpack|tote|pack/.test(t);
