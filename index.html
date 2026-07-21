@@ -180,8 +180,9 @@ img{display:block;}
 .co-body .sub{font-size:14px;color:var(--muted);margin-bottom:24px;line-height:1.55;}
 .field{margin-bottom:16px;}
 .field label{display:block;font-size:11px;font-weight:600;color:var(--muted);margin-bottom:7px;text-transform:uppercase;letter-spacing:1.2px;}
-.field input,.field textarea{width:100%;padding:13px 15px;border:1px solid var(--border);border-radius:12px;font-size:15px;font-family:inherit;color:var(--ink);outline:none;background:#fff;transition:border-color .15s;}
-.field input:focus,.field textarea:focus{border-color:var(--orange);}
+.field input,.field textarea,.field select{width:100%;padding:13px 15px;border:1px solid var(--border);border-radius:12px;font-size:15px;font-family:inherit;color:var(--ink);outline:none;background:#fff;transition:border-color .15s;}
+.field input:focus,.field textarea:focus,.field select:focus{border-color:var(--orange);}
+.field select{appearance:none;-webkit-appearance:none;cursor:pointer;padding-right:40px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath fill='none' stroke='%238c857a' stroke-width='1.6' d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center;}
 .summary-box{background:var(--gray);border-radius:14px;padding:18px;margin:22px 0;}
 .summary-title{font-size:11px;font-weight:600;margin-bottom:12px;text-transform:uppercase;letter-spacing:1.5px;color:var(--muted);}
 .sum-line{display:flex;justify-content:space-between;font-size:13px;padding:5px 0;color:var(--text);}
@@ -404,6 +405,16 @@ a:focus-visible,button:focus-visible,input:focus-visible,.card:focus-visible,.ch
     <div class="field">
       <label>Notes (optional)</label>
       <input id="fnotes" type="text" placeholder="Any special instructions…">
+    </div>
+    <div class="field">
+      <label>Who helped you shop?</label>
+      <select id="fhelper">
+        <option value="">No one — I shopped on my own</option>
+        <option value="Chrissy">Chrissy</option>
+        <option value="Marisa">Marisa</option>
+        <option value="Olivia">Olivia</option>
+        <option value="Synneva">Synneva</option>
+      </select>
     </div>
     <div class="summary-box" id="coSummary"></div>
     <div class="auth-notice">
@@ -776,6 +787,7 @@ async function placeOrder() {
   const email = document.getElementById('femail').value.trim();
   const phone = document.getElementById('fphone').value.trim();
   const notes = document.getElementById('fnotes').value.trim();
+  const helpedBy = document.getElementById('fhelper').value;
   if (!name || !email) { alert('Please enter your name and email address.'); return; }
 
   const btn = document.getElementById('placeBtn');
@@ -787,7 +799,7 @@ async function placeOrder() {
     `${i.title} (${i.variant !== 'Default Title' ? i.variant : 'One Size'}) x${i.qty} = $${(i.price * i.qty).toFixed(2)}`
   ).join('\n');
 
-  const payload = { name, email, phone, notes, items: orderLines, total: '$' + total.toFixed(2), submitted: new Date().toLocaleString() };
+  const payload = { name, email, phone, notes, helpedBy: helpedBy || 'None', items: orderLines, total: '$' + total.toFixed(2), submitted: new Date().toLocaleString() };
 
   try {
     await fetch('/api/submit-order', {
@@ -797,16 +809,17 @@ async function placeOrder() {
     });
   } catch(_) {}
 
-  showConf(name, email, orderLines, total);
+  showConf(name, email, orderLines, total, helpedBy);
 }
 
-function showConf(name, email, lines, total) {
+function showConf(name, email, lines, total, helpedBy) {
   document.getElementById('coPanel').classList.remove('open');
   document.getElementById('confSub').textContent =
     `Thanks, ${name}! We received your order and will charge your card on file. You'll hear from us soon. 🔥`;
   document.getElementById('confBox').innerHTML = `
     <div style="font-weight:700;margin-bottom:8px;font-size:13px;text-transform:uppercase;letter-spacing:.4px">Order Details</div>
-    <div style="font-size:13px;color:#555;line-height:1.7">${lines.replace(/\n/g,'<br>')}</div>
+    <div style="font-size:13px;color:var(--muted);line-height:1.7">${lines.replace(/\n/g,'<br>')}</div>
+    ${helpedBy ? `<div style="font-size:13px;color:var(--muted);margin-top:8px">Helped by <strong style="color:var(--ink)">${esc(helpedBy)}</strong></div>` : ''}
     <div style="font-weight:800;margin-top:10px;font-size:16px">Total: $${total.toFixed(2)}</div>`;
   document.getElementById('confPanel').classList.add('open');
   cart = [];
