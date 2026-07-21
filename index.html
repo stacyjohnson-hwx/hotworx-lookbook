@@ -105,6 +105,13 @@ img{display:block;}
 .chip{position:relative;white-space:nowrap;padding:8px 0;border:none;background:none;font-size:13.5px;font-weight:600;color:var(--muted);cursor:pointer;flex-shrink:0;transition:color .15s;letter-spacing:.2px;}
 .chip.active{color:var(--ink);}
 .chip.active::after{content:"";position:absolute;left:0;right:0;bottom:2px;height:2px;background:var(--orange);border-radius:2px;}
+.size-bar{display:flex;align-items:center;gap:8px;overflow-x:auto;scrollbar-width:none;padding:11px 18px 12px;max-width:1240px;margin:0 auto;border-top:1px solid var(--border);}
+.size-bar::-webkit-scrollbar{display:none;}
+.size-label{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);flex-shrink:0;margin-right:4px;}
+.size-pill{flex-shrink:0;min-width:40px;padding:6px 10px;border:1px solid var(--border);border-radius:8px;background:#fff;font-size:13px;font-weight:600;color:var(--ink);cursor:pointer;transition:all .15s;}
+.size-pill:hover{border-color:var(--ink);}
+.size-pill.active{background:var(--orange);border-color:var(--orange);color:#fff;}
+.size-clear{flex-shrink:0;padding:6px 4px;border:none;background:none;font-size:12px;font-weight:600;color:var(--orange);cursor:pointer;}
 
 /* ─── PRODUCT GRID ───────────────────────── */
 .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px 14px;padding:20px 16px 100px;max-width:1200px;margin:0 auto;}
@@ -344,6 +351,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,.card:focus-visible,.ch
     <input class="search-input" type="search" id="q" placeholder="Search gear & apparel…" oninput="render()" autocomplete="off">
   </div>
   <div class="chips" id="chips"></div>
+  <div class="size-bar" id="sizeBar"></div>
 </div>
 
 <!-- PRODUCT GRID -->
@@ -467,7 +475,9 @@ let cart = [];
 let selProduct = null;
 let selVariant = null;
 let filter = 'All';
+let sizeFilter = '';
 const CATS = ['All','Apparel','Tanks','Tees','Shorts','Hoodies & Sweatshirts','Joggers','Sale / Closeout'];
+const SIZES = ['XS','S','M','L','XL','2X','3X'];
 
 // ─── CSV PARSER ───────────────────────────
 function parseCSV(text) {
@@ -552,9 +562,31 @@ function renderChips() {
   document.getElementById('chips').innerHTML = CATS.map(c =>
     `<button class="chip${c===filter?' active':''}" onclick="setFilter('${c.replace(/'/g,"\\'")}')">${c}</button>`
   ).join('');
+  renderSizes();
 }
 
 function setFilter(c) { filter = c; renderChips(); render(); }
+
+// ─── SIZE FILTER ──────────────────────────
+// Normalize size labels so equivalents match (e.g. Emily's XXL == HOTWORX's 2X)
+function normSize(v) {
+  v = (v || '').trim().toUpperCase();
+  if (v === 'XXL') return '2X';
+  if (v === 'XXXL') return '3X';
+  return v;
+}
+function productHasSize(p, sz) {
+  if (!sz) return true;
+  const so = (p.options || []).find(o => o.name === 'Size');
+  return !!so && so.values.some(v => normSize(v) === sz);
+}
+function renderSizes() {
+  document.getElementById('sizeBar').innerHTML =
+    '<span class="size-label">Size</span>' +
+    SIZES.map(s => `<button class="size-pill${s===sizeFilter?' active':''}" onclick="setSize('${s}')">${s}</button>`).join('') +
+    (sizeFilter ? `<button class="size-clear" onclick="setSize('')">Clear</button>` : '');
+}
+function setSize(s) { sizeFilter = (s === sizeFilter) ? '' : s; renderSizes(); render(); }
 
 // ─── PRODUCT GRID ─────────────────────────
 function render() {
@@ -562,7 +594,8 @@ function render() {
   const items = catalog.filter(p => {
     const matchQ = !q || p.title.toLowerCase().includes(q);
     const matchC = catMatch(p, filter);
-    return matchQ && matchC;
+    const matchS = productHasSize(p, sizeFilter);
+    return matchQ && matchC && matchS;
   }).sort((a, b) => {
     const aClose = /closeout/i.test(a.title) ? 1 : 0;
     const bClose = /closeout/i.test(b.title) ? 1 : 0;
@@ -571,7 +604,7 @@ function render() {
 
   if (!items.length) {
     document.getElementById('grid').innerHTML =
-      '<div class="empty"><div class="empty-icon">🔍</div><div>No results. Try a different search.</div></div>';
+      '<div class="empty"><div class="empty-icon">🔍</div><div>No items match. Try a different size, category, or search.</div></div>';
     return;
   }
 
