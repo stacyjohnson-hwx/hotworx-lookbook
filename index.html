@@ -472,52 +472,38 @@ function parseCSV(text) {
 }
 
 // ─── FETCH CATALOG ────────────────────────
+// Catalog lives in catalog.json in this repo (same origin — reliable, no CORS).
+// To update prices/inventory, edit catalog.json or re-run the refresh workflow.
 async function loadCatalog() {
-  const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSkIbKEazpvu-0TDnxI-md5gM0zGmtnZLbDFpXGZTQxSMr4A7Ga7SZRggaEM2cRrHegRnna_bLFN3TO/pub?gid=258574880&single=true&output=csv';
-  // Use a CORS proxy as fallback if direct fetch is blocked
-  const PROXY_URL = 'https://corsproxy.io/?' + encodeURIComponent(SHEET_URL);
-
-  async function tryFetch(url) {
-    const res = await fetch(url);
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    return res.text();
-  }
-
   try {
-    let text;
-    try {
-      text = await tryFetch(SHEET_URL);
-    } catch (e) {
-      console.warn('Direct fetch failed, trying proxy…', e);
-      text = await tryFetch(PROXY_URL);
-    }
+    const res = await fetch('./catalog.json?v=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const rows = await res.json();
 
-    const rows = parseCSV(text);
-    catalog = rows
-      .filter(r => (r['Show'] || '').toUpperCase() === 'TRUE')
-      .map(r => {
-        const price = parseFloat((r['Price'] || '0').replace(/[^0-9.]/g, '')) || 0;
-        const sizes = (r['Sizes'] || '').split(',').map(s => s.trim()).filter(Boolean);
-        const colors = (r['Colors'] || '').split(',').map(s => s.trim()).filter(Boolean);
-        const opts = [];
-        if (sizes.length) opts.push({ name: 'Size', values: sizes });
-        if (colors.length) opts.push({ name: 'Color', values: colors });
-        return {
-          title: r['Name'] || '',
-          handle: (r['SKU'] || '').toLowerCase(),
-          image: r['Image URL'] || '',
-          images: [r['Image URL'] || ''],
-          category: r['Category'] || '',
-          price_min: price.toFixed(2),
-          options: opts,
-          // Always include at least one variant so the product renders
-          variants: sizes.length
-            ? sizes.map(s => ({ id: r['SKU'] + '-' + s, title: s, price: price.toFixed(2) }))
-            : [{ id: r['SKU'], title: 'One Size', price: price.toFixed(2) }],
-        };
-      });
+    catalog = rows.map(r => {
+      const price = parseFloat(r.price) || 0;
+      const sizes = Array.isArray(r.sizes) ? r.sizes.filter(Boolean) : [];
+      const colors = Array.isArray(r.colors) ? r.colors.filter(Boolean) : [];
+      const opts = [];
+      if (sizes.length) opts.push({ name: 'Size', values: sizes });
+      if (colors.length) opts.push({ name: 'Color', values: colors });
+      const handle = (r.name || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+      return {
+        title: r.name || '',
+        handle,
+        image: r.image || '',
+        images: [r.image || ''],
+        category: r.category || '',
+        source: r.source || '',
+        price_min: price.toFixed(2),
+        options: opts,
+        variants: sizes.length
+          ? sizes.map(s => ({ id: handle + '-' + s, title: s, price: price.toFixed(2) }))
+          : [{ id: handle, title: 'One Size', price: price.toFixed(2) }],
+      };
+    });
 
-    console.log('Loaded', catalog.length, 'products');
+    console.log('Loaded', catalog.length, 'products from catalog.json');
     renderChips();
     render();
   } catch (e) {
